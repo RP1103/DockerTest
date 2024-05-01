@@ -1,0 +1,26 @@
+<!-- interest.component.html -->
+<!--div>
+  <canvas id="canvas"></canvas>
+</div-->
+
+<div class="container mt-3">
+  <table class="table">
+    <thead class="table-success">
+      <tr>
+        <th>Country</th>
+        <th>Current Interest Rate</th>
+        <th>Previous</th>
+        <th>Last Change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let bill of interests">
+        <td>{{bill.Country}}</td>
+        <td [ngStyle]="{ color: getColor(bill.CurrentInterestRate) }">{{bill.CurrentInterestRate}}%</td>
+        <td [ngStyle]="{ color: getColor(bill.Previous) }">{{bill.Previous}}%</td>
+        <td [ngStyle]="{ color: getColor(bill.LastChange) }">{{bill.LastChange | number: '1.3-3'}}%</td>
+      </tr>
+    </tbody>
+    
+    
+  </table>

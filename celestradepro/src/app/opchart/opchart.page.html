@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab2"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Options Chart
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label>Select Symbol(s)</ion-label>
+    <ion-select multiple interface="popover" [(ngModel)]="selectedSymbols" (ionChange)="onSymbolChange()">
+      <ion-select-option *ngFor="let option of options" [value]="option.symbol">
+        {{ option.symbol }}
+      </ion-select-option>
+    </ion-select>
+  </ion-item>
+  <div class="chart-container">
+    <canvas #chartCanvas></canvas>
+  </div>
+</ion-content>

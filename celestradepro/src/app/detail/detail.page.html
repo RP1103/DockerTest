@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="cret"></ion-back-button>
+      <ion-title> List Of Details</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-searchbar type="text" class="form-control" placeholder="Search..."
+[(ngModel)]="filterTerm" ></ion-searchbar>
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let detail of Detail | filter: filterTerm">
+      <ion-label>
+        <h2>{{detail.veg}}</h2>
+        <h3>{{detail.unit}}</h3>
+        <h3>{{detail.price}}</h3>
+        <h3>{{detail.rprice}}</h3>
+        <h3>{{detail.sprice}}</h3>       
+      
+      </ion-label>
+
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/upd/', detail._id]">
+          <ion-icon name="create" style="zoom:1.5"></ion-icon>
+        </button>
+        <button ion-button clear (click)="removedetail(detail, i)">
+          <ion-icon name="trash" style="zoom:1.5"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,93 @@
+<ion-header >
+  <ion-toolbar class="s">
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+      <ion-title>Option</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<h2>Option-List</h2>
+  <ion-searchbar type="text" class="form-control" placeholder="Search..."
+  [(ngModel)]="filterTerm" ></ion-searchbar>
+
+    <ion-grid class="grid">
+      <ion-row style="border-top:groove">
+        <ion-col col-4>
+          <ion-label>symbol</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >expirydate</ion-label>
+        </ion-col>
+        <ion-col col-4>
+
+    <ion-label >Lastprice</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >change</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >chng%</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >highlow</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label > averageprice</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >vlc</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >value</ion-label>
+        </ion-col><ion-col col-4>
+          <ion-label >openintrest</ion-label>
+        </ion-col><ion-col col-4>
+          <ion-label >oic</ion-label>
+        </ion-col>
+        </ion-row>
+    </ion-grid>
+
+      <ion-grid *ngFor="let Options of Options | filter: filterTerm" class="green">
+        <ion-row style="border-top:groove">
+          <ion-col col-4>
+            <ion-label>{{  Options.symbol }}</ion-label>
+           
+          </ion-col>
+          <ion-col col-4>
+            <ion-label>{{  Options.expirydate }}</ion-label>
+          </ion-col><ion-col col-4>
+            <ion-label>{{  Options.Lastprice }}</ion-label>
+          </ion-col><ion-col col-4>
+            <ion-label>{{  Options.change }}</ion-label>
+          </ion-col><ion-col col-4>
+            <ion-label>{{  Options.chng }}</ion-label>
+          </ion-col><ion-col col-4>
+            <ion-label>{{  Options.highlow }}</ion-label>
+          </ion-col><ion-col col-4>
+            <ion-label>{{  Options.averageprice }}</ion-label>
+          </ion-col>
+          <ion-col col-4>
+            <ion-label>{{  Options.vlc }}</ion-label>
+
+          </ion-col>
+          <ion-col col-4>
+            <ion-label>{{  Options.value }}</ion-label>
+
+          </ion-col> 
+          <ion-col col-4>
+            <ion-label>{{  Options.openintrest }}</ion-label>
+
+          </ion-col> 
+          <ion-col col-4>
+            <ion-label>{{  Options.oic }}</ion-label>
+
+          </ion-col> 
+ 
+
+          </ion-row>
+      </ion-grid>
+
+    </ion-content>

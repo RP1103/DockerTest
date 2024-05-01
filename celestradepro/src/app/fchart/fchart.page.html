@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Forex Chart</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+    <ion-label>Select Forex Pairs</ion-label>
+    <ion-select multiple interface="popover" [(ngModel)]="selectedForexSymbols" (ionChange)="updateChart()">
+      <ion-select-option *ngFor="let forex of validForexs" [value]="forex.symbol">{{ forex.symbol }}</ion-select-option>
+    </ion-select>
+  </ion-item>
+  
+  <ion-list>
+    <div *ngIf="selectedForexSymbols.length > 0" #chart class="chart"></div>
+  </ion-list>
+</ion-content>

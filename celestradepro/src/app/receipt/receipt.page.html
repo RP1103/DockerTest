@@ -1,0 +1,48 @@
+<ion-grid  class="grid">
+  <ion-row style="border-top:groove">
+    <ion-col col-4>
+      <ion-label>symbol</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label>Date</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Last</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Low</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >High</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Open</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Strike<br>Price</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Open</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Low</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >High</ion-label>
+    </ion-col>
+    <ion-col col-4>
+      <ion-label >Last</ion-label>
+    </ion-col>
+</ion-row>
+</ion-grid>
+<ion-grid *ngFor="let stock of stocks" class="col">
+  <ion-row style="border-top:groove">
+    <ion-col col-4 id="c6">
+      <ion-label>{{  stock.STK }}</ion-label>
+    </ion-col>
+    <ion-col col-4 id="c1">
+      <ion-label>{{stock.option[0]}}</ion-label>
+    </ion-col>
+
+  </ion-row>
+</ion-grid>

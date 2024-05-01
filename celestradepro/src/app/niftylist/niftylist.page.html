@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let nifty of Niftys">
+      <ion-label>
+        <h2>{{nifty.DELTA}}</h2>
+        <h3>{{nifty.BUILTUP}}</h3>
+        <h3>{{nifty.OI}}</h3>
+        <h3>{{nifty.CHGINOI}}</h3>
+        <h3>{{nifty.IV}}</h3>
+        <h3>{{nifty.LTP}}</h3>
+        
+        
+      
+      </ion-label>
+
+      <div class="item-note" item-end>
+        <button ion-button clear [routerLink]="['/niftyupdate/', nifty._id]">
+          <ion-icon name="create" style="zoom:1.5"></ion-icon>
+        </button>
+        <button ion-button clear (click)="removeNifty(nifty, i)">
+          <ion-icon name="trash" style="zoom:1.5"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

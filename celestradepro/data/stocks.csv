@@ -1,0 +1,5 @@
+_id,metrics.Debt/Eq,metrics.Dividend %,metrics.EPS (ttm),metrics.EPS Q/Q,metrics.Forward P/E,metrics.Insider Own,metrics.P/B,metrics.P/E,metrics.PEG,metrics.ROE,metrics.ROI,metrics.symbol,symbol
+63e48caa25ffe345d2d553f9,0.61,-,-0.27,-98.00%,39.25,9.80%,7.00,-,-,-2.00%,6.60%,AMZN,AMZN
+63e48caa25ffe345d2d553fa,-,-,5.21,-26.50%,16.42,0.04%,5.11,19.19,1.88,-,-,GOOG,GOOG
+63e48caa25ffe345d2d553fb,1.96,0.61%,5.89,-10.30%,22.98,0.07%,42.55,25.81,3.17,163.50%,58.30%,AAPl,AAPl
+63e48caa25ffe345d2d553fc,0.97,0.39%,0.53,-125.60%,23.87,0.20%,2.85,154.06,3.46,-12.80%,-5.80%,GE,GE

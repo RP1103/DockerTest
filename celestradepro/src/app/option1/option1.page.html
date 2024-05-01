@@ -1,0 +1,234 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title>option</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div *ngIf="callOptions">
+    <h2><center>Call Options</center></h2>
+      <ion-grid class="col">
+    <ion-row style="border-top:groove"class="res">
+      <ion-col col-4 >
+        <ion-label>contractSymbol</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>lastTradeDate</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>strike</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >lastPrice</ion-label>
+      </ion-col>
+     <ion-col col-4>
+        <ion-label >bid</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >ask</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >change</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >percentChange</ion-label>
+      </ion-col><ion-col col-4>
+        <ion-label >openInterest</ion-label>
+      </ion-col><ion-col col-4>
+        <ion-label >impliedVolatility</ion-label>
+      </ion-col><ion-col col-4>
+        <ion-label >inTheMoney</ion-label>
+      
+    </ion-col><ion-col col-4>
+      <ion-label >contractSize</ion-label>
+    </ion-col>
+  <ion-col col-4>
+    <ion-label >currency</ion-label>
+  </ion-col>
+
+  
+      </ion-row>
+  </ion-grid>
+
+
+    <ion-grid *ngFor="let coption of callOptions" > 
+      <ion-row style="border-top:groove">
+
+        <ion-col col-4 id="c5">
+           <ion-label>{{  coption.contractSymbol }}</ion-label> 
+        </ion-col> 
+
+        <ion-col col-4 id="c5"> 
+          <ion-label>{{  coption.lastTradeDate}}</ion-label> 
+        </ion-col>
+
+        <ion-col col-4 id="c5"> 
+          <ion-label>{{ coption.strike}}</ion-label> 
+        </ion-col> 
+
+        <ion-col col-4 id="c5"> 
+        <ion-label >{{  coption.lastPrice}}</ion-label>
+          </ion-col>
+
+          <ion-col col-4 id="c5"> 
+        <ion-label>{{  coption. bid}}</ion-label>
+        </ion-col>
+
+        <ion-col col-4 id="c5">
+          <ion-label>{{ coption.ask }}</ion-label>
+        </ion-col>
+
+        <ion-col col-4 id="c5">
+          <ion-label>{{  coption.change}}</ion-label>
+           </ion-col>
+
+           <ion-col col-4 id="c5">
+          <ion-label>{{  coption.percentChange}}</ion-label>
+        </ion-col>
+      
+      <ion-col col-4 id="c5">
+     <ion-label>{{  coption.openInterest}}</ion-label>
+   </ion-col>
+  
+  <ion-col col-4 id="c5">
+    <ion-label>{{  coption.impliedVolatility}}</ion-label>
+    </ion-col>
+   
+    <ion-col col-4 id="c5">
+    <ion-label>{{  coption.inTheMoney}}</ion-label>
+    </ion-col>
+    
+    <ion-col col-4 id="c5">
+    <ion-label>{{  coption.contractSize}}</ion-label>
+    </ion-col>
+    
+    <ion-col col-4 id="c5">
+    <ion-label>{{  coption.currency}}</ion-label>
+    </ion-col>
+
+      </ion-row>
+    </ion-grid> 
+  </div>
+
+
+  <div *ngIf="putOptions">
+    <h2><center>Put Options</center></h2>
+    <ion-grid class="col">
+      <ion-row style="border-top:groove" class="res">
+        <ion-col col-4>
+          <ion-label>contractSymbol</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>lastTradeDate</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>strike</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >lastPrice</ion-label>
+        </ion-col>
+       <ion-col col-4>
+          <ion-label >bid</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >ask</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >change</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label >percentChange</ion-label>
+        </ion-col><ion-col col-4>
+          <ion-label >openInterest</ion-label>
+        </ion-col><ion-col col-4>
+          <ion-label >impliedVolatility</ion-label>
+        </ion-col><ion-col col-4>
+          <ion-label >inTheMoney</ion-label>
+        
+      </ion-col><ion-col col-4>
+        <ion-label >contractSize</ion-label>
+      </ion-col>
+    <ion-col col-4>
+      <ion-label >currency</ion-label>
+    </ion-col>
+    
+        </ion-row>
+    </ion-grid>
+  
+  
+      <ion-grid *ngFor="let option of putOptions" > 
+        <ion-row style="border-top:groove">
+  
+          <ion-col col-4 id="c5">
+             <ion-label>{{  option.contractSymbol }}</ion-label> 
+          </ion-col> 
+  
+          <ion-col col-4 id="c5"> 
+            <ion-label>{{  option.lastTradeDate}}</ion-label> 
+          </ion-col>
+  
+          <ion-col col-4 id="c5"> 
+            <ion-label>{{ option.strike}}</ion-label> 
+          </ion-col> 
+  
+          <ion-col col-4 id="c5"> 
+          <ion-label >{{  option.lastPrice}}</ion-label>
+            </ion-col>
+  
+            <ion-col col-4 id="c5"> 
+          <ion-label>{{  option. bid}}</ion-label>
+          </ion-col>
+  
+          <ion-col col-4 id="c5">
+            <ion-label>{{ option.ask }}</ion-label>
+          </ion-col>
+  
+          <ion-col col-4 id="c5">
+            <ion-label>{{  option.change}}</ion-label>
+             </ion-col>
+  
+             <ion-col col-4 id="c5">
+            <ion-label>{{  option.percentChange}}</ion-label>
+          </ion-col>
+        
+        <ion-col col-4 id="c5">
+       <ion-label>{{  option.openInterest}}</ion-label>
+     </ion-col>
+    
+    <ion-col col-4 id="c5">
+      <ion-label>{{  option.impliedVolatility}}</ion-label>
+      </ion-col>
+     
+      <ion-col col-4 id="c5">
+      <ion-label>{{  option.inTheMoney}}</ion-label>
+      </ion-col>
+      
+      <ion-col col-4 id="c5">
+      <ion-label>{{  option.contractSize}}</ion-label>
+      </ion-col>
+      
+      <ion-col col-4 id="c5">
+      <ion-label>{{  option.currency}}</ion-label>
+      </ion-col>
+  
+        </ion-row>
+      </ion-grid> 
+  </div>
+
+
+  <!-- <div *ngIf="callOptions">
+    <h2>Call Options</h2>
+    <ul>
+      <li *ngFor="let option of callOptions">{{ option }}</li>
+    </ul>
+  </div>
+  <div *ngIf="putOptions">
+    <h2>Put Options</h2>
+    <ul>
+      <li *ngFor="let option of putOptions">{{ option }}</li>
+    </ul>
+  </div>
+   -->
+
+
+</ion-content>

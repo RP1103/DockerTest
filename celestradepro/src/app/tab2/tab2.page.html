@@ -1,0 +1,164 @@
+<ion-header>
+  <app-ribbon></app-ribbon>
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" defer></script>
+</ion-header>
+
+<ion-content >
+
+  <ion-segment [(ngModel)]="selectTabs">
+    <ion-segment-button value="recent">
+      <ion-label>List View</ion-label>
+    </ion-segment-button>
+
+    <ion-segment-button value="missed">
+      <ion-label>Chart View</ion-label>
+    </ion-segment-button>
+
+    <ion-segment-button value="contact">
+      <ion-label>Tile View</ion-label>
+    </ion-segment-button>
+
+    <ion-segment-button value="contacts">
+      <ion-label>Research</ion-label>
+    </ion-segment-button>
+    </ion-segment>
+
+    <div *ngIf="selectTabs === 'recent'">
+      <h4>Options Data</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Type</th>
+            <th>Last Trade Date</th>
+            <th>Strike</th>
+            <th>Last Price</th>
+            <!-- <th>Bid</th>
+            <th>Ask</th>
+            <th>Change</th>
+            <th>Percent Change</th> -->
+            <th>Volume</th>
+            <!-- <th>Open Interest</th> -->
+            <th>Implied Volatility</th>
+            <th>In the Money</th>
+            <!-- <th>Contract Size</th>
+            <th>Currency</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let option of options">
+            <tr>
+           
+              <td>Call</td>
+              <td>{{ option.lastTradeDate }}</td>
+              <td>{{ option.strike }}</td>
+              <td>{{ option.lastPrice }}</td>
+              <!-- <td>{{ option.calls[0].bid }}</td>
+              <td>{{ option.calls[0].ask }}</td>
+              <td>{{ option.calls[0].change }}</td>
+              <td>{{ option.calls[0].percentChange }}</td> -->
+              <td>{{ option.volume }}</td>
+              <!-- <td>{{ option.calls[0].openInterest }}</td> -->
+              <td>{{ option.calls[0].impliedVolatility.toFixed(4) }}</td>
+              <td>{{ option.inTheMoney }}</td>
+              <!-- <td>{{ option.calls[0].contractSize }}</td>
+              <td>{{ option.calls[0].currency }}</td> -->
+            </tr>
+            <tr>
+            
+              <td>Put</td>
+              <td>{{ option.puts[0].lastTradeDate }}</td>
+              <td>{{ option.puts[0].strike }}</td>
+              <td>{{ option.puts[0].lastPrice }}</td>
+              <!-- <td>{{ option.puts[0].bid }}</td>
+              <td>{{ option.puts[0].ask }}</td>
+              <td>{{ option.puts[0].change }}</td>
+              <td>{{ option.puts[0].percentChange }}</td> -->
+              <td>{{ option.puts[0].volume }}</td>
+              <!-- <td>{{ option.puts[0].openInterest }}</td> -->
+              <td>{{ option.puts[0].impliedVolatility }}</td>
+              <td>{{ option.puts[0].inTheMoney }}</td>
+              <!-- <td>{{ option.puts[0].contractSize }}</td>
+              <td>{{ option.puts[0].currency }}</td>  -->
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+    
+
+<div *ngIf="selectTabs === 'missed'">
+    <app-optionch></app-optionch>
+</div>
+
+<div *ngIf="selectTabs === 'contact'" class="grid-container">
+  <div class="tiles-container">
+    <div [ngClass]="{'tile': true, 'call-tile': true}" *ngFor="let option of options">
+      <div class="tile-header">{{ option.symbol }}</div>
+      <div class="tile-content">
+        <div class="tile-row">
+          <div class="tile-column">
+            <p>Call - Strike</p>
+            <b [ngStyle]="{'color': getStrikeColor(option.calls[index].strike, option.puts[index].strike, 'call')}">{{ option.calls[index].strike }}</b>
+          </div>
+          <div class="tile-column">
+            <p>Call - Last Price</p>
+            <b [ngStyle]="{'color': getLastPriceColor(option.calls[index].lastPrice, option.puts[index].lastPrice, 'call')}">{{ option.calls[index].lastPrice }}</b>
+          </div>
+        </div>
+        <div class="tile-row">
+          <div class="tile-column">
+            <p>Put - Strike</p>
+            <b [ngStyle]="{'color': getStrikeColor(option.calls[index].strike, option.puts[index].strike, 'put')}">{{ option.puts[index].strike }}</b>
+          </div>
+          <div class="tile-column">
+            <p>Put - Last Price</p>
+            <b [ngStyle]="{'color': getLastPriceColor(option.calls[index].lastPrice, option.puts[index].lastPrice, 'put')}">{{ option.puts[index].lastPrice }}</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <p>Last Updated: <span id="last-updated"></span></p> -->
+
+<div *ngIf="selectTabs === 'contacts'">
+  <details>
+  <summary>OPEN INTEREST</summary>
+  <app-option-io></app-option-io>
+  </details>
+  <details>
+    <summary>VOLATILITY</summary>
+    <!--app-vol-chart></app-vol-chart-->
+    <app-volatility></app-volatility>
+   </details>
+   <details>
+    <summary>STRATEGY</summary>
+
+   </details>
+  </div>
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref=""></ion-back-button>
+    <ion-title>News</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-searchbar type="text" class="form-control" placeholder="Search..."
+                                             [(ngModel)]="filterTerm" ></ion-searchbar>
+
+    <h1>Headline News</h1>
+    <div class="grid-container">
+    <div *ngFor = "let item of news | filter: filterTerm" class="grid-item">
+    <div> <img [src]="item.imgurl || ''"  ></div>
+      <a [attr.href]="item.url">
+       {{item.name}}
+      </a>
+    </div>
+    </div>
+</ion-content>

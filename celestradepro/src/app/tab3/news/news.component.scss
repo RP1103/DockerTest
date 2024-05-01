@@ -1,0 +1,19 @@
+#news {
+  margin-top: 15px;
+  text-decoration: none;
+  margin-left: 30px;
+  color: blue; /* Set the color of the link */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#news:hover {
+  color: red; /* Change the link color on hover */
+}
+
+.news-article {
+  list-style-type: disc; /* Set the bullet point style */
+  color: green; /* Set the color of the bullet points */
+  margin-left: 20px; /* Add some indentation to the bullet points */
+
+}

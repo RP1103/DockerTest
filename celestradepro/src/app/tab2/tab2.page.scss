@@ -1,0 +1,248 @@
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+*{
+  font-family:  'Times New Roman',;
+}
+
+.tile {
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tile-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-row {
+  display: flex;
+}
+
+.tile-column {
+  flex: 1;
+}
+
+.tile-column p {
+  margin: 0;
+}
+
+.tile-column b {
+  font-weight: bold;
+}
+
+.call-tile {
+  background-color: #f2f9fb;
+  border: 2px solid #29c7ac;
+}
+
+.put-tile {
+  background-color: #fef1f1;
+  border: 2px solid #ff5252;
+}
+
+
+  /* Style for the tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #5680f2;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Style for the table container */
+  .table-container {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    vertical-align: top;
+    overflow-x: auto;
+  }
+
+  @media (max-width: 768px) {
+    /* For small screens, make the tables stack on top of each other */
+    .table-container {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+
+
+
+
+ion-header{
+  height: 13%;
+}
+summary{
+  margin-left: 40px;
+  margin-top: 20px;
+  color: rgb(94, 10, 190);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+.tool{
+  --background: dodgerblue;
+  text-align: center;
+ }
+ ion-title{
+   --background: dodgerblue;
+ }
+ .cl1{
+     background-color: aquamarine;
+ }
+ .c1{
+     --background: crimson;
+     margin-left: 90px;
+ }
+ .c3{
+     --background: crimson;
+     margin-left: 230px;
+     margin-top: -65px;
+ }
+ .class1{
+     position: absolute;
+     margin-left:20px;
+     margin-top: 50px;
+     font-family:Times New Roman !important;
+  font-size:1.1em;
+
+ }
+ h1{
+   margin-left: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:rgb(14, 134, 233) ;
+ }
+ h4{
+   margin-left: 30px;
+    margin-top: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   //color:#E630A2 ;
+ }
+ .card1{
+   --background:rgb(144, 140, 148);
+   height: 40%;
+   width: 55%;
+   margin-left: 25%;
+ }
+
+ #head{
+   font-size: larger;
+   font-weight: bold;
+ }
+ #c1{
+   background-color: rgb(247, 175, 241);
+ }
+ #c2{
+   background-color: rgb(143, 243, 130);
+ }
+ #c3{
+   background-color: rgb(243, 140, 140);
+ }
+ #c4{
+   background-color: rgb(247, 247, 150);
+ }
+ #c5{
+   background-color: rgb(146, 240, 243);
+ }
+ #c6{
+   background-color: rgb(101, 179, 243);
+ }
+ ion-label{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ #h1{
+   text-align: center;
+   color: rgb(16, 117, 248);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ ion-segment{
+   ion-label{
+   color: #E630A2;
+   font-size: medium;
+   font-weight: bloder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ }
+ ion-button{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+   font-weight: 100;
+   margin-left: 80px;
+ }
+ ion-card-content{
+   padding: 20px;
+   padding-left: 25%;
+   p{
+     color: #000;
+     font-size: large;
+     margin-left: 5%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   b{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: xx-large;
+     color:rgb(224, 172, 75);
+   }
+ }
+ ion-card-title{
+   text-align: center;
+   padding-top: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: whitesmoke;
+ }
+ .grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding: 40px;
+ #card{
+   --background:rgb(144, 140, 148);
+ }
+ }
+ .grid-item {
+   border: 1px  rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+ }
+#call{
+  margin-left: 25%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(67, 118, 228);
+  font-size: x-large;
+}
+#put{
+  margin-left: 45%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(74, 118, 214);
+  font-size: x-large;
+}
+#btn{
+  margin-left: 10%;
+}

@@ -1,0 +1,6 @@
+<div class="tradingview-widget-container my-container">
+  <button (click)="toggleWidget()">{{ showWidget ? 'Close' : 'Open' }}</button>
+  <div class="tradingview-widget-container__widget" *ngIf="showWidget">
+    <div #tradingview></div>
+  </div>
+</div>

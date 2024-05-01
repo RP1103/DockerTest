@@ -1,0 +1,42 @@
+<!-- <iframe src="https://tunein.com/embed/player/s110052/" style="width:900px; height:100px;" scrolling="no" frameborder="no"></iframe>
+<iframe src="https://tunein.com/embed/player/s47135/" style="width:900px; height:100px;" scrolling="no" frameborder="no"></iframe> -->
+<!-- <ul >
+  <li class="news-article" *ngFor="let article of com_news">
+    <a href="{{ article.link }}" target="_blank" id="news">{{ article.name }}</a><hr>
+  </li>
+
+</ul> -->
+<table class="table table-bordered">
+  <thead>
+    <tr style="background-color: rgb(47, 94, 70);">
+      <th>TITLE</th>
+      <th>SUMMARIZE</th>
+      <th>SENTIMENT SCORE</th>
+      <th>SENTIMENT</th>
+      <th>UPDATED TIME</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let article of com_news">
+      <!-- <th><a>{{ article.url }} </a></th> -->
+      <th><a href="{{ article.url }}" style="text-decoration: none; color:black;">{{ article.headline }}</a></th>
+
+      <!-- <th>{{ article.summary}}</th> -->
+      <th>
+        <div *ngIf="!article.showFullSummary">{{ article.summary.slice(0, 150) }}...</div>
+        <div *ngIf="article.showFullSummary">{{ article.summary }}</div>
+        <button (click)="toggleSummary(article)" color="blue">
+          {{ article.showFullSummary ? 'Read less' : 'Read more' }}
+        </button>
+      </th>
+      <th>{{ article.sentimentScore}}</th>
+      <th>{{ article.sentiment}}</th>
+
+
+      <th>
+        {{ article.fetchedTime}}
+      </th>
+    </tr>
+  </tbody>
+</table>

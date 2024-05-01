@@ -1,0 +1,7 @@
+{
+  "name": "celestradepro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

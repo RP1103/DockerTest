@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Commodity
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-select [(ngModel)]="selectedSymbols" multiple="true" (ionChange)="updateChart(data)">
+    <ion-select-option value="Gold">Gold</ion-select-option>
+    <ion-select-option value="Silver">Silver</ion-select-option>
+    <ion-select-option value="Crude Oil">Crude Oil</ion-select-option>
+  </ion-select>
+
+  <canvas id="commodity-chart"></canvas>
+</ion-content>

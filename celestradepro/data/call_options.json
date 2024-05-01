@@ -1,0 +1,5557 @@
+[{
+  "_id": {
+    "$oid": "63e7383f43b2695aa4125d8e"
+  },
+  "contractSymbol": "AAPL230217C00045000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675975976000"
+    }
+  },
+  "strike": 45,
+  "lastPrice": 106,
+  "bid": 104.9,
+  "ask": 107.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 0,
+  "impliedVolatility": 5.158206677246094,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d8f"
+  },
+  "contractSymbol": "AAPL230217C00050000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967037000"
+    }
+  },
+  "strike": 50,
+  "lastPrice": 102.5,
+  "bid": 99.95,
+  "ask": 102.3,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7990,
+  "openInterest": 9,
+  "impliedVolatility": 3.3593766015624995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d90"
+  },
+  "contractSymbol": "AAPL230217C00055000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 55,
+  "lastPrice": 96.2,
+  "bid": 94.95,
+  "ask": 97,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4770,
+  "openInterest": 0,
+  "impliedVolatility": 4.3183639770507805,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d91"
+  },
+  "contractSymbol": "AAPL230217C00060000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 60,
+  "lastPrice": 91.2,
+  "bid": 89.95,
+  "ask": 92.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4249,
+  "openInterest": 20,
+  "impliedVolatility": 2.281254296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d92"
+  },
+  "contractSymbol": "AAPL230217C00065000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967030000"
+    }
+  },
+  "strike": 65,
+  "lastPrice": 87.46,
+  "bid": 84.9,
+  "ask": 87.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2350,
+  "openInterest": 1,
+  "impliedVolatility": 2.0937547656249995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d93"
+  },
+  "contractSymbol": "AAPL230217C00070000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 70,
+  "lastPrice": 82.65,
+  "bid": 80,
+  "ask": 81.95,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 475,
+  "openInterest": 14,
+  "impliedVolatility": 3.3437516406249994,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d94"
+  },
+  "contractSymbol": "AAPL230217C00075000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 75,
+  "lastPrice": 77.45,
+  "bid": 74.9,
+  "ask": 77.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1411,
+  "openInterest": 0,
+  "impliedVolatility": 1.75000125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d95"
+  },
+  "contractSymbol": "AAPL230217C00080000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676047689000"
+    }
+  },
+  "strike": 80,
+  "lastPrice": 69.94,
+  "bid": 69.9,
+  "ask": 72.1,
+  "change": -1.909996,
+  "percentChange": -2.6583104,
+  "volume": 5,
+  "openInterest": 20,
+  "impliedVolatility": 2.9199245751953127,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d96"
+  },
+  "contractSymbol": "AAPL230217C00085000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061657000"
+    }
+  },
+  "strike": 85,
+  "lastPrice": 65.75,
+  "bid": 64.95,
+  "ask": 67,
+  "change": -1.9000015,
+  "percentChange": -2.8085756,
+  "volume": 7,
+  "openInterest": 5,
+  "impliedVolatility": 2.6250034375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d97"
+  },
+  "contractSymbol": "AAPL230217C00090000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055075000"
+    }
+  },
+  "strike": 90,
+  "lastPrice": 60.71,
+  "bid": 59.95,
+  "ask": 62.05,
+  "change": -1.8899994,
+  "percentChange": -3.0191684,
+  "volume": 33,
+  "openInterest": 43,
+  "impliedVolatility": 2.4287148657226565,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d98"
+  },
+  "contractSymbol": "AAPL230217C00095000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675974835000"
+    }
+  },
+  "strike": 95,
+  "lastPrice": 55.6,
+  "bid": 54.9,
+  "ask": 57.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7551,
+  "openInterest": 3,
+  "impliedVolatility": 2.2138716528320304,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d99"
+  },
+  "contractSymbol": "AAPL230217C00100000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054131000"
+    }
+  },
+  "strike": 100,
+  "lastPrice": 50.81,
+  "bid": 49.9,
+  "ask": 52.1,
+  "change": -1.1699982,
+  "percentChange": -2.2508624,
+  "volume": 29,
+  "openInterest": 64,
+  "impliedVolatility": 2.032231481933594,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9a"
+  },
+  "contractSymbol": "AAPL230217C00105000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054935000"
+    }
+  },
+  "strike": 105,
+  "lastPrice": 45.7,
+  "bid": 44.95,
+  "ask": 47.1,
+  "change": -1.2000008,
+  "percentChange": -2.558637,
+  "volume": 2,
+  "openInterest": 6,
+  "impliedVolatility": 0.9531254687499999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9b"
+  },
+  "contractSymbol": "AAPL230217C00110000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046750000"
+    }
+  },
+  "strike": 110,
+  "lastPrice": 40.2,
+  "bid": 39.95,
+  "ask": 42.05,
+  "change": -0.34999847,
+  "percentChange": -0.8631282,
+  "volume": 13,
+  "openInterest": 37,
+  "impliedVolatility": 1.625001875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9c"
+  },
+  "contractSymbol": "AAPL230217C00115000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042202000"
+    }
+  },
+  "strike": 115,
+  "lastPrice": 35.75,
+  "bid": 35,
+  "ask": 36.85,
+  "change": -1.8600006,
+  "percentChange": -4.9454947,
+  "volume": 4,
+  "openInterest": 14,
+  "impliedVolatility": 1.3681672216796876,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9d"
+  },
+  "contractSymbol": "AAPL230217C00116000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675094259000"
+    }
+  },
+  "strike": 116,
+  "lastPrice": 28.1,
+  "bid": 33.95,
+  "ask": 36.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.9433599414062499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9e"
+  },
+  "contractSymbol": "AAPL230217C00118000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676053415000"
+    }
+  },
+  "strike": 118,
+  "lastPrice": 33,
+  "bid": 32,
+  "ask": 34.35,
+  "change": 6.5,
+  "percentChange": 24.528303,
+  "volume": 6,
+  "openInterest": 0,
+  "impliedVolatility": 0.914063359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125d9f"
+  },
+  "contractSymbol": "AAPL230217C00119000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675280886000"
+    }
+  },
+  "strike": 119,
+  "lastPrice": 26.3,
+  "bid": 30.95,
+  "ask": 33.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8876964355468748,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da0"
+  },
+  "contractSymbol": "AAPL230217C00120000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062571000"
+    }
+  },
+  "strike": 120,
+  "lastPrice": 31.1,
+  "bid": 29.95,
+  "ask": 31.4,
+  "change": -1.7199993,
+  "percentChange": -5.240705,
+  "volume": 92,
+  "openInterest": 259,
+  "impliedVolatility": 1.0078174609375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da1"
+  },
+  "contractSymbol": "AAPL230217C00121000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675277199000"
+    }
+  },
+  "strike": 121,
+  "lastPrice": 21.67,
+  "bid": 29,
+  "ask": 31.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.8339860351562498,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da2"
+  },
+  "contractSymbol": "AAPL230217C00122000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675348942000"
+    }
+  },
+  "strike": 122,
+  "lastPrice": 27.53,
+  "bid": 28,
+  "ask": 30.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8085956640624999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da3"
+  },
+  "contractSymbol": "AAPL230217C00123000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675283470000"
+    }
+  },
+  "strike": 123,
+  "lastPrice": 22.8,
+  "bid": 27.05,
+  "ask": 29.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 3,
+  "openInterest": 0,
+  "impliedVolatility": 0.8007832421875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da4"
+  },
+  "contractSymbol": "AAPL230217C00124000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675793866000"
+    }
+  },
+  "strike": 124,
+  "lastPrice": 29.65,
+  "bid": 26,
+  "ask": 28.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2,
+  "openInterest": 0,
+  "impliedVolatility": 0.6543003320312502,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da5"
+  },
+  "contractSymbol": "AAPL230217C00125000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676050719000"
+    }
+  },
+  "strike": 125,
+  "lastPrice": 25,
+  "bid": 25,
+  "ask": 27.2,
+  "change": -1.0900002,
+  "percentChange": -4.1778464,
+  "volume": 9,
+  "openInterest": 170,
+  "impliedVolatility": 0.6621127539062501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da6"
+  },
+  "contractSymbol": "AAPL230217C00126000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 126,
+  "lastPrice": 26,
+  "bid": 24.05,
+  "ask": 26.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 1,
+  "impliedVolatility": 0.72070591796875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da7"
+  },
+  "contractSymbol": "AAPL230217C00127000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 127,
+  "lastPrice": 25,
+  "bid": 23.1,
+  "ask": 25.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 107,
+  "openInterest": 0,
+  "impliedVolatility": 0.725588681640625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da8"
+  },
+  "contractSymbol": "AAPL230217C00128000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042313000"
+    }
+  },
+  "strike": 128,
+  "lastPrice": 23,
+  "bid": 22,
+  "ask": 23.35,
+  "change": -1,
+  "percentChange": -4.166667,
+  "volume": 28,
+  "openInterest": 24,
+  "impliedVolatility": 0.7490259472656251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125da9"
+  },
+  "contractSymbol": "AAPL230217C00129000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675960492000"
+    }
+  },
+  "strike": 129,
+  "lastPrice": 23.9,
+  "bid": 21.1,
+  "ask": 23.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 2,
+  "impliedVolatility": 0.5644574804687501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125daa"
+  },
+  "contractSymbol": "AAPL230217C00130000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060829000"
+    }
+  },
+  "strike": 130,
+  "lastPrice": 20.6,
+  "bid": 21.1,
+  "ask": 21.3,
+  "change": -0.29999924,
+  "percentChange": -1.4354031,
+  "volume": 46,
+  "openInterest": 3004,
+  "impliedVolatility": 0.6152382226562501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dab"
+  },
+  "contractSymbol": "AAPL230217C00131000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039591000"
+    }
+  },
+  "strike": 131,
+  "lastPrice": 19.35,
+  "bid": 19.6,
+  "ask": 21.4,
+  "change": -0.69999886,
+  "percentChange": -3.491266,
+  "volume": 1,
+  "openInterest": 19,
+  "impliedVolatility": 0.7216824707031251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dac"
+  },
+  "contractSymbol": "AAPL230217C00132000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046815000"
+    }
+  },
+  "strike": 132,
+  "lastPrice": 18.3,
+  "bid": 18,
+  "ask": 19.4,
+  "change": -1.6200008,
+  "percentChange": -8.132534,
+  "volume": 22,
+  "openInterest": 33,
+  "impliedVolatility": 0.6552768847656252,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dad"
+  },
+  "contractSymbol": "AAPL230217C00133000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676056769000"
+    }
+  },
+  "strike": 133,
+  "lastPrice": 17.5,
+  "bid": 17.1,
+  "ask": 19.15,
+  "change": -0.45000076,
+  "percentChange": -2.506968,
+  "volume": 2,
+  "openInterest": 56,
+  "impliedVolatility": 0.8378922460937499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dae"
+  },
+  "contractSymbol": "AAPL230217C00134000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039442000"
+    }
+  },
+  "strike": 134,
+  "lastPrice": 16.25,
+  "bid": 16.05,
+  "ask": 18.4,
+  "change": -0.8999996,
+  "percentChange": -5.2478113,
+  "volume": 10,
+  "openInterest": 353,
+  "impliedVolatility": 0.524418818359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125daf"
+  },
+  "contractSymbol": "AAPL230217C00135000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062275000"
+    }
+  },
+  "strike": 135,
+  "lastPrice": 16,
+  "bid": 16,
+  "ask": 16.4,
+  "change": -0.010000229,
+  "percentChange": -0.06246239,
+  "volume": 532,
+  "openInterest": 29215,
+  "impliedVolatility": 0.56836369140625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db0"
+  },
+  "contractSymbol": "AAPL230217C00136000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675973411000"
+    }
+  },
+  "strike": 136,
+  "lastPrice": 15.53,
+  "bid": 14.05,
+  "ask": 16.5,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 17,
+  "openInterest": 250,
+  "impliedVolatility": 0.804689453125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db1"
+  },
+  "contractSymbol": "AAPL230217C00137000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061587000"
+    }
+  },
+  "strike": 137,
+  "lastPrice": 14.03,
+  "bid": 13.55,
+  "ask": 14.4,
+  "change": -0.40999985,
+  "percentChange": -2.839334,
+  "volume": 114,
+  "openInterest": 347,
+  "impliedVolatility": 0.5097705273437501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db2"
+  },
+  "contractSymbol": "AAPL230217C00138000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060877000"
+    }
+  },
+  "strike": 138,
+  "lastPrice": 12.72,
+  "bid": 12.45,
+  "ask": 13.5,
+  "change": -0.7699995,
+  "percentChange": -5.707928,
+  "volume": 80,
+  "openInterest": 1175,
+  "impliedVolatility": 0.5102588037109376,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db3"
+  },
+  "contractSymbol": "AAPL230217C00139000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676043392000"
+    }
+  },
+  "strike": 139,
+  "lastPrice": 11.95,
+  "bid": 11.6,
+  "ask": 13.3,
+  "change": -0.119999886,
+  "percentChange": -0.99419963,
+  "volume": 26,
+  "openInterest": 5369,
+  "impliedVolatility": 0.6557651611328126,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db4"
+  },
+  "contractSymbol": "AAPL230217C00140000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062781000"
+    }
+  },
+  "strike": 140,
+  "lastPrice": 11.4,
+  "bid": 10.85,
+  "ask": 11.6,
+  "change": 0.25999928,
+  "percentChange": 2.3339252,
+  "volume": 460,
+  "openInterest": 39591,
+  "impliedVolatility": 0.47412635253906255,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db5"
+  },
+  "contractSymbol": "AAPL230217C00141000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055154000"
+    }
+  },
+  "strike": 141,
+  "lastPrice": 10.09,
+  "bid": 10.25,
+  "ask": 10.65,
+  "change": -0.48999977,
+  "percentChange": -4.6313777,
+  "volume": 86,
+  "openInterest": 2507,
+  "impliedVolatility": 0.45361874511718747,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db6"
+  },
+  "contractSymbol": "AAPL230217C00142000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061488000"
+    }
+  },
+  "strike": 142,
+  "lastPrice": 9.28,
+  "bid": 8.8,
+  "ask": 9.65,
+  "change": -0.52000046,
+  "percentChange": -5.306127,
+  "volume": 361,
+  "openInterest": 5770,
+  "impliedVolatility": 0.42090422851562503,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db7"
+  },
+  "contractSymbol": "AAPL230217C00143000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062751000"
+    }
+  },
+  "strike": 143,
+  "lastPrice": 8.66,
+  "bid": 7.95,
+  "ask": 8.75,
+  "change": -0.14000034,
+  "percentChange": -1.5909129,
+  "volume": 212,
+  "openInterest": 2423,
+  "impliedVolatility": 0.40820904296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db8"
+  },
+  "contractSymbol": "AAPL230217C00144000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062386000"
+    }
+  },
+  "strike": 144,
+  "lastPrice": 7.6,
+  "bid": 6.95,
+  "ask": 7.85,
+  "change": -0.4000001,
+  "percentChange": -5.000001,
+  "volume": 327,
+  "openInterest": 5130,
+  "impliedVolatility": 0.3918517846679687,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125db9"
+  },
+  "contractSymbol": "AAPL230217C00145000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062795000"
+    }
+  },
+  "strike": 145,
+  "lastPrice": 6.9,
+  "bid": 6.8,
+  "ask": 7.1,
+  "change": 0.05000019,
+  "percentChange": 0.7299298,
+  "volume": 2627,
+  "openInterest": 28980,
+  "impliedVolatility": 0.397466962890625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dba"
+  },
+  "contractSymbol": "AAPL230217C00146000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061681000"
+    }
+  },
+  "strike": 146,
+  "lastPrice": 6,
+  "bid": 6,
+  "ask": 6.15,
+  "change": -0.1500001,
+  "percentChange": -2.4390259,
+  "volume": 604,
+  "openInterest": 4439,
+  "impliedVolatility": 0.366217275390625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dbb"
+  },
+  "contractSymbol": "AAPL230217C00147000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062701000"
+    }
+  },
+  "strike": 147,
+  "lastPrice": 5.42,
+  "bid": 5.25,
+  "ask": 5.4,
+  "change": -0.17999983,
+  "percentChange": -3.2142825,
+  "volume": 2963,
+  "openInterest": 5971,
+  "impliedVolatility": 0.36133451171875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dbc"
+  },
+  "contractSymbol": "AAPL230217C00148000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062738000"
+    }
+  },
+  "strike": 148,
+  "lastPrice": 4.65,
+  "bid": 4.55,
+  "ask": 4.65,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1347,
+  "openInterest": 4823,
+  "impliedVolatility": 0.35108070800781244,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dbd"
+  },
+  "contractSymbol": "AAPL230217C00149000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062754000"
+    }
+  },
+  "strike": 149,
+  "lastPrice": 4,
+  "bid": 3.85,
+  "ask": 4,
+  "change": -0.099999905,
+  "percentChange": -2.439022,
+  "volume": 1835,
+  "openInterest": 5035,
+  "impliedVolatility": 0.3481510498046875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dbe"
+  },
+  "contractSymbol": "AAPL230217C00150000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062793000"
+    }
+  },
+  "strike": 150,
+  "lastPrice": 3.32,
+  "bid": 3.25,
+  "ask": 3.4,
+  "change": -0.13000011,
+  "percentChange": -3.7681193,
+  "volume": 19487,
+  "openInterest": 57220,
+  "impliedVolatility": 0.344733115234375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dbf"
+  },
+  "contractSymbol": "AAPL230217C00152500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062798000"
+    }
+  },
+  "strike": 152.5,
+  "lastPrice": 2.05,
+  "bid": 2.03,
+  "ask": 2.05,
+  "change": -0.21000004,
+  "percentChange": -9.292037,
+  "volume": 21396,
+  "openInterest": 18997,
+  "impliedVolatility": 0.32569033691406246,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc0"
+  },
+  "contractSymbol": "AAPL230217C00155000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062792000"
+    }
+  },
+  "strike": 155,
+  "lastPrice": 1.13,
+  "bid": 1.1,
+  "ask": 1.13,
+  "change": -0.24000001,
+  "percentChange": -17.51825,
+  "volume": 21706,
+  "openInterest": 52226,
+  "impliedVolatility": 0.3149482568359374,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc1"
+  },
+  "contractSymbol": "AAPL230217C00157500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062797000"
+    }
+  },
+  "strike": 157.5,
+  "lastPrice": 0.56,
+  "bid": 0.55,
+  "ask": 0.56,
+  "change": -0.19999999,
+  "percentChange": -26.315788,
+  "volume": 13443,
+  "openInterest": 13748,
+  "impliedVolatility": 0.30762411132812495,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc2"
+  },
+  "contractSymbol": "AAPL230217C00160000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 160,
+  "lastPrice": 0.25,
+  "bid": 0.24,
+  "ask": 0.25,
+  "change": -0.16999999,
+  "percentChange": -40.47619,
+  "volume": 14982,
+  "openInterest": 40791,
+  "impliedVolatility": 0.30274134765625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc3"
+  },
+  "contractSymbol": "AAPL230217C00162500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062789000"
+    }
+  },
+  "strike": 162.5,
+  "lastPrice": 0.11,
+  "bid": 0.1,
+  "ask": 0.12,
+  "change": -0.099999994,
+  "percentChange": -47.619045,
+  "volume": 4718,
+  "openInterest": 21274,
+  "impliedVolatility": 0.309577216796875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc4"
+  },
+  "contractSymbol": "AAPL230217C00165000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062785000"
+    }
+  },
+  "strike": 165,
+  "lastPrice": 0.07,
+  "bid": 0.06,
+  "ask": 0.07,
+  "change": -0.059999995,
+  "percentChange": -46.153843,
+  "volume": 5583,
+  "openInterest": 37604,
+  "impliedVolatility": 0.32813171874999997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc5"
+  },
+  "contractSymbol": "AAPL230217C00167500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062749000"
+    }
+  },
+  "strike": 167.5,
+  "lastPrice": 0.03,
+  "bid": 0.03,
+  "ask": 0.04,
+  "change": -0.03,
+  "percentChange": -50,
+  "volume": 1111,
+  "openInterest": 4077,
+  "impliedVolatility": 0.3437565625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc6"
+  },
+  "contractSymbol": "AAPL230217C00170000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 170,
+  "lastPrice": 0.02,
+  "bid": 0.02,
+  "ask": 0.03,
+  "change": -0.02,
+  "percentChange": -50,
+  "volume": 1450,
+  "openInterest": 14563,
+  "impliedVolatility": 0.3711000390625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc7"
+  },
+  "contractSymbol": "AAPL230217C00172500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061339000"
+    }
+  },
+  "strike": 172.5,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 240,
+  "openInterest": 3339,
+  "impliedVolatility": 0.39063109375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc8"
+  },
+  "contractSymbol": "AAPL230217C00175000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061931000"
+    }
+  },
+  "strike": 175,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 211,
+  "openInterest": 43087,
+  "impliedVolatility": 0.42969320312500003,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dc9"
+  },
+  "contractSymbol": "AAPL230217C00180000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061492000"
+    }
+  },
+  "strike": 180,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 99,
+  "openInterest": 13509,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dca"
+  },
+  "contractSymbol": "AAPL230217C00185000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676057659000"
+    }
+  },
+  "strike": 185,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 34,
+  "openInterest": 7772,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dcb"
+  },
+  "contractSymbol": "AAPL230217C00190000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675959221000"
+    }
+  },
+  "strike": 190,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 5268,
+  "impliedVolatility": 0.5468795312500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dcc"
+  },
+  "contractSymbol": "AAPL230217C00195000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061114000"
+    }
+  },
+  "strike": 195,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 22,
+  "openInterest": 4906,
+  "impliedVolatility": 0.6093789062500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dcd"
+  },
+  "contractSymbol": "AAPL230217C00200000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062446000"
+    }
+  },
+  "strike": 200,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 10,
+  "openInterest": 11041,
+  "impliedVolatility": 0.6562534375000001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dce"
+  },
+  "contractSymbol": "AAPL230217C00205000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675881769000"
+    }
+  },
+  "strike": 205,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 9,
+  "openInterest": 5362,
+  "impliedVolatility": 0.7187528125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dcf"
+  },
+  "contractSymbol": "AAPL230217C00210000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675878913000"
+    }
+  },
+  "strike": 210,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 2690,
+  "impliedVolatility": 0.7656273437500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd0"
+  },
+  "contractSymbol": "AAPL230217C00215000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675709733000"
+    }
+  },
+  "strike": 215,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 44,
+  "openInterest": 2986,
+  "impliedVolatility": 0.8125018749999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd1"
+  },
+  "contractSymbol": "AAPL230217C00220000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675457698000"
+    }
+  },
+  "strike": 220,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 807,
+  "openInterest": 2806,
+  "impliedVolatility": 0.87500125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd2"
+  },
+  "contractSymbol": "AAPL230217C00225000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437984000"
+    }
+  },
+  "strike": 225,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 522,
+  "openInterest": 1998,
+  "impliedVolatility": 0.9062509375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd3"
+  },
+  "contractSymbol": "AAPL230217C00230000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437315000"
+    }
+  },
+  "strike": 230,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 641,
+  "impliedVolatility": 0.9687503125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd4"
+  },
+  "contractSymbol": "AAPL230217C00235000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675368883000"
+    }
+  },
+  "strike": 235,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 91,
+  "openInterest": 571,
+  "impliedVolatility": 1.000005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd5"
+  },
+  "contractSymbol": "AAPL230217C00240000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675363285000"
+    }
+  },
+  "strike": 240,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 68,
+  "openInterest": 294,
+  "impliedVolatility": 1.0312548437500002,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd6"
+  },
+  "contractSymbol": "AAPL230217C00245000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675369509000"
+    }
+  },
+  "strike": 245,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 262,
+  "impliedVolatility": 1.09375453125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd7"
+  },
+  "contractSymbol": "AAPL230217C00250000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675367257000"
+    }
+  },
+  "strike": 250,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 104,
+  "openInterest": 681,
+  "impliedVolatility": 1.125004375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd8"
+  },
+  "contractSymbol": "AAPL230217C00255000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675447892000"
+    }
+  },
+  "strike": 255,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 623,
+  "impliedVolatility": 1.15625421875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dd9"
+  },
+  "contractSymbol": "AAPL230217C00260000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675370059000"
+    }
+  },
+  "strike": 260,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 315,
+  "impliedVolatility": 1.1875040625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dda"
+  },
+  "contractSymbol": "AAPL230217C00265000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675358977000"
+    }
+  },
+  "strike": 265,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 347,
+  "impliedVolatility": 1.2500037499999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125ddb"
+  },
+  "contractSymbol": "AAPL230217C00270000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1671049005000"
+    }
+  },
+  "strike": 270,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 145,
+  "impliedVolatility": 1.2812535937499998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125ddc"
+  },
+  "contractSymbol": "AAPL230217C00275000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673362950000"
+    }
+  },
+  "strike": 275,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 637,
+  "impliedVolatility": 1.3125034374999998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125ddd"
+  },
+  "contractSymbol": "AAPL230217C00280000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673016431000"
+    }
+  },
+  "strike": 280,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 424,
+  "impliedVolatility": 1.3437532812499997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125dde"
+  },
+  "contractSymbol": "AAPL230217C00285000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672862947000"
+    }
+  },
+  "strike": 285,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 250,
+  "openInterest": 652,
+  "impliedVolatility": 1.3750031249999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125ddf"
+  },
+  "contractSymbol": "AAPL230217C00290000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672856186000"
+    }
+  },
+  "strike": 290,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 350,
+  "openInterest": 512,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125de0"
+  },
+  "contractSymbol": "AAPL230217C00295000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672842841000"
+    }
+  },
+  "strike": 295,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 300,
+  "openInterest": 1052,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7384143b2695aa4125de1"
+  },
+  "contractSymbol": "AAPL230217C00300000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675870650000"
+    }
+  },
+  "strike": 300,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 8,
+  "openInterest": 1365,
+  "impliedVolatility": 1.5000025,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330a"
+  },
+  "contractSymbol": "AAPL230217C00045000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675975976000"
+    }
+  },
+  "strike": 45,
+  "lastPrice": 106,
+  "bid": 104.9,
+  "ask": 107.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 0,
+  "impliedVolatility": 5.158206677246094,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330b"
+  },
+  "contractSymbol": "AAPL230217C00050000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967037000"
+    }
+  },
+  "strike": 50,
+  "lastPrice": 102.5,
+  "bid": 99.95,
+  "ask": 102.3,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7990,
+  "openInterest": 9,
+  "impliedVolatility": 3.3593766015624995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330c"
+  },
+  "contractSymbol": "AAPL230217C00055000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 55,
+  "lastPrice": 96.2,
+  "bid": 94.95,
+  "ask": 97,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4770,
+  "openInterest": 0,
+  "impliedVolatility": 4.3183639770507805,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330d"
+  },
+  "contractSymbol": "AAPL230217C00060000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 60,
+  "lastPrice": 91.2,
+  "bid": 89.95,
+  "ask": 92.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4249,
+  "openInterest": 20,
+  "impliedVolatility": 2.281254296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330e"
+  },
+  "contractSymbol": "AAPL230217C00065000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967030000"
+    }
+  },
+  "strike": 65,
+  "lastPrice": 87.46,
+  "bid": 84.9,
+  "ask": 87.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2350,
+  "openInterest": 1,
+  "impliedVolatility": 2.0937547656249995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753330f"
+  },
+  "contractSymbol": "AAPL230217C00070000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 70,
+  "lastPrice": 82.65,
+  "bid": 80,
+  "ask": 81.95,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 475,
+  "openInterest": 14,
+  "impliedVolatility": 3.3437516406249994,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533310"
+  },
+  "contractSymbol": "AAPL230217C00075000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 75,
+  "lastPrice": 77.45,
+  "bid": 74.9,
+  "ask": 77.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1411,
+  "openInterest": 0,
+  "impliedVolatility": 1.75000125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533311"
+  },
+  "contractSymbol": "AAPL230217C00080000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676047689000"
+    }
+  },
+  "strike": 80,
+  "lastPrice": 69.94,
+  "bid": 69.9,
+  "ask": 72.1,
+  "change": -1.909996,
+  "percentChange": -2.6583104,
+  "volume": 5,
+  "openInterest": 20,
+  "impliedVolatility": 2.9199245751953127,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533312"
+  },
+  "contractSymbol": "AAPL230217C00085000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061657000"
+    }
+  },
+  "strike": 85,
+  "lastPrice": 65.75,
+  "bid": 64.95,
+  "ask": 67,
+  "change": -1.9000015,
+  "percentChange": -2.8085756,
+  "volume": 7,
+  "openInterest": 5,
+  "impliedVolatility": 2.6250034375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533313"
+  },
+  "contractSymbol": "AAPL230217C00090000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055075000"
+    }
+  },
+  "strike": 90,
+  "lastPrice": 60.71,
+  "bid": 59.95,
+  "ask": 62.05,
+  "change": -1.8899994,
+  "percentChange": -3.0191684,
+  "volume": 33,
+  "openInterest": 43,
+  "impliedVolatility": 2.4287148657226565,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533314"
+  },
+  "contractSymbol": "AAPL230217C00095000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675974835000"
+    }
+  },
+  "strike": 95,
+  "lastPrice": 55.6,
+  "bid": 54.9,
+  "ask": 57.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7551,
+  "openInterest": 3,
+  "impliedVolatility": 2.2138716528320304,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533315"
+  },
+  "contractSymbol": "AAPL230217C00100000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054131000"
+    }
+  },
+  "strike": 100,
+  "lastPrice": 50.81,
+  "bid": 49.9,
+  "ask": 52.1,
+  "change": -1.1699982,
+  "percentChange": -2.2508624,
+  "volume": 29,
+  "openInterest": 64,
+  "impliedVolatility": 2.032231481933594,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533316"
+  },
+  "contractSymbol": "AAPL230217C00105000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054935000"
+    }
+  },
+  "strike": 105,
+  "lastPrice": 45.7,
+  "bid": 44.95,
+  "ask": 47.1,
+  "change": -1.2000008,
+  "percentChange": -2.558637,
+  "volume": 2,
+  "openInterest": 6,
+  "impliedVolatility": 0.9531254687499999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533317"
+  },
+  "contractSymbol": "AAPL230217C00110000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046750000"
+    }
+  },
+  "strike": 110,
+  "lastPrice": 40.2,
+  "bid": 39.95,
+  "ask": 42.05,
+  "change": -0.34999847,
+  "percentChange": -0.8631282,
+  "volume": 13,
+  "openInterest": 37,
+  "impliedVolatility": 1.625001875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533318"
+  },
+  "contractSymbol": "AAPL230217C00115000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042202000"
+    }
+  },
+  "strike": 115,
+  "lastPrice": 35.75,
+  "bid": 35,
+  "ask": 36.85,
+  "change": -1.8600006,
+  "percentChange": -4.9454947,
+  "volume": 4,
+  "openInterest": 14,
+  "impliedVolatility": 1.3681672216796876,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533319"
+  },
+  "contractSymbol": "AAPL230217C00116000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675094259000"
+    }
+  },
+  "strike": 116,
+  "lastPrice": 28.1,
+  "bid": 33.95,
+  "ask": 36.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.9433599414062499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331a"
+  },
+  "contractSymbol": "AAPL230217C00118000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676053415000"
+    }
+  },
+  "strike": 118,
+  "lastPrice": 33,
+  "bid": 32,
+  "ask": 34.35,
+  "change": 6.5,
+  "percentChange": 24.528303,
+  "volume": 6,
+  "openInterest": 0,
+  "impliedVolatility": 0.914063359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331b"
+  },
+  "contractSymbol": "AAPL230217C00119000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675280886000"
+    }
+  },
+  "strike": 119,
+  "lastPrice": 26.3,
+  "bid": 30.95,
+  "ask": 33.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8876964355468748,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331c"
+  },
+  "contractSymbol": "AAPL230217C00120000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062571000"
+    }
+  },
+  "strike": 120,
+  "lastPrice": 31.1,
+  "bid": 29.95,
+  "ask": 31.4,
+  "change": -1.7199993,
+  "percentChange": -5.240705,
+  "volume": 92,
+  "openInterest": 259,
+  "impliedVolatility": 1.0078174609375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331d"
+  },
+  "contractSymbol": "AAPL230217C00121000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675277199000"
+    }
+  },
+  "strike": 121,
+  "lastPrice": 21.67,
+  "bid": 29,
+  "ask": 31.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.8339860351562498,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331e"
+  },
+  "contractSymbol": "AAPL230217C00122000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675348942000"
+    }
+  },
+  "strike": 122,
+  "lastPrice": 27.53,
+  "bid": 28,
+  "ask": 30.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8085956640624999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753331f"
+  },
+  "contractSymbol": "AAPL230217C00123000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675283470000"
+    }
+  },
+  "strike": 123,
+  "lastPrice": 22.8,
+  "bid": 27.05,
+  "ask": 29.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 3,
+  "openInterest": 0,
+  "impliedVolatility": 0.8007832421875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533320"
+  },
+  "contractSymbol": "AAPL230217C00124000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675793866000"
+    }
+  },
+  "strike": 124,
+  "lastPrice": 29.65,
+  "bid": 26,
+  "ask": 28.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2,
+  "openInterest": 0,
+  "impliedVolatility": 0.6543003320312502,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533321"
+  },
+  "contractSymbol": "AAPL230217C00125000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676050719000"
+    }
+  },
+  "strike": 125,
+  "lastPrice": 25,
+  "bid": 25,
+  "ask": 27.2,
+  "change": -1.0900002,
+  "percentChange": -4.1778464,
+  "volume": 9,
+  "openInterest": 170,
+  "impliedVolatility": 0.6621127539062501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533322"
+  },
+  "contractSymbol": "AAPL230217C00126000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 126,
+  "lastPrice": 26,
+  "bid": 24.05,
+  "ask": 26.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 1,
+  "impliedVolatility": 0.72070591796875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533323"
+  },
+  "contractSymbol": "AAPL230217C00127000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 127,
+  "lastPrice": 25,
+  "bid": 23.1,
+  "ask": 25.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 107,
+  "openInterest": 0,
+  "impliedVolatility": 0.725588681640625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533324"
+  },
+  "contractSymbol": "AAPL230217C00128000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042313000"
+    }
+  },
+  "strike": 128,
+  "lastPrice": 23,
+  "bid": 22,
+  "ask": 23.35,
+  "change": -1,
+  "percentChange": -4.166667,
+  "volume": 28,
+  "openInterest": 24,
+  "impliedVolatility": 0.7490259472656251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533325"
+  },
+  "contractSymbol": "AAPL230217C00129000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675960492000"
+    }
+  },
+  "strike": 129,
+  "lastPrice": 23.9,
+  "bid": 21.1,
+  "ask": 23.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 2,
+  "impliedVolatility": 0.5644574804687501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533326"
+  },
+  "contractSymbol": "AAPL230217C00130000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060829000"
+    }
+  },
+  "strike": 130,
+  "lastPrice": 20.6,
+  "bid": 21.1,
+  "ask": 21.3,
+  "change": -0.29999924,
+  "percentChange": -1.4354031,
+  "volume": 46,
+  "openInterest": 3004,
+  "impliedVolatility": 0.6152382226562501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533327"
+  },
+  "contractSymbol": "AAPL230217C00131000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039591000"
+    }
+  },
+  "strike": 131,
+  "lastPrice": 19.35,
+  "bid": 19.6,
+  "ask": 21.4,
+  "change": -0.69999886,
+  "percentChange": -3.491266,
+  "volume": 1,
+  "openInterest": 19,
+  "impliedVolatility": 0.7216824707031251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533328"
+  },
+  "contractSymbol": "AAPL230217C00132000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046815000"
+    }
+  },
+  "strike": 132,
+  "lastPrice": 18.3,
+  "bid": 18,
+  "ask": 19.4,
+  "change": -1.6200008,
+  "percentChange": -8.132534,
+  "volume": 22,
+  "openInterest": 33,
+  "impliedVolatility": 0.6552768847656252,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533329"
+  },
+  "contractSymbol": "AAPL230217C00133000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676056769000"
+    }
+  },
+  "strike": 133,
+  "lastPrice": 17.5,
+  "bid": 17.1,
+  "ask": 19.15,
+  "change": -0.45000076,
+  "percentChange": -2.506968,
+  "volume": 2,
+  "openInterest": 56,
+  "impliedVolatility": 0.8378922460937499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332a"
+  },
+  "contractSymbol": "AAPL230217C00134000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039442000"
+    }
+  },
+  "strike": 134,
+  "lastPrice": 16.25,
+  "bid": 16.05,
+  "ask": 18.4,
+  "change": -0.8999996,
+  "percentChange": -5.2478113,
+  "volume": 10,
+  "openInterest": 353,
+  "impliedVolatility": 0.524418818359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332b"
+  },
+  "contractSymbol": "AAPL230217C00135000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062275000"
+    }
+  },
+  "strike": 135,
+  "lastPrice": 16,
+  "bid": 16,
+  "ask": 16.4,
+  "change": -0.010000229,
+  "percentChange": -0.06246239,
+  "volume": 532,
+  "openInterest": 29215,
+  "impliedVolatility": 0.56836369140625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332c"
+  },
+  "contractSymbol": "AAPL230217C00136000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675973411000"
+    }
+  },
+  "strike": 136,
+  "lastPrice": 15.53,
+  "bid": 14.05,
+  "ask": 16.5,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 17,
+  "openInterest": 250,
+  "impliedVolatility": 0.804689453125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332d"
+  },
+  "contractSymbol": "AAPL230217C00137000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061587000"
+    }
+  },
+  "strike": 137,
+  "lastPrice": 14.03,
+  "bid": 13.55,
+  "ask": 14.4,
+  "change": -0.40999985,
+  "percentChange": -2.839334,
+  "volume": 114,
+  "openInterest": 347,
+  "impliedVolatility": 0.5097705273437501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332e"
+  },
+  "contractSymbol": "AAPL230217C00138000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060877000"
+    }
+  },
+  "strike": 138,
+  "lastPrice": 12.72,
+  "bid": 12.45,
+  "ask": 13.5,
+  "change": -0.7699995,
+  "percentChange": -5.707928,
+  "volume": 80,
+  "openInterest": 1175,
+  "impliedVolatility": 0.5102588037109376,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d79753332f"
+  },
+  "contractSymbol": "AAPL230217C00139000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676043392000"
+    }
+  },
+  "strike": 139,
+  "lastPrice": 11.95,
+  "bid": 11.6,
+  "ask": 13.3,
+  "change": -0.119999886,
+  "percentChange": -0.99419963,
+  "volume": 26,
+  "openInterest": 5369,
+  "impliedVolatility": 0.6557651611328126,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533330"
+  },
+  "contractSymbol": "AAPL230217C00140000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062781000"
+    }
+  },
+  "strike": 140,
+  "lastPrice": 11.4,
+  "bid": 10.85,
+  "ask": 11.6,
+  "change": 0.25999928,
+  "percentChange": 2.3339252,
+  "volume": 460,
+  "openInterest": 39591,
+  "impliedVolatility": 0.47412635253906255,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533331"
+  },
+  "contractSymbol": "AAPL230217C00141000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055154000"
+    }
+  },
+  "strike": 141,
+  "lastPrice": 10.09,
+  "bid": 10.25,
+  "ask": 10.65,
+  "change": -0.48999977,
+  "percentChange": -4.6313777,
+  "volume": 86,
+  "openInterest": 2507,
+  "impliedVolatility": 0.45361874511718747,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533332"
+  },
+  "contractSymbol": "AAPL230217C00142000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061488000"
+    }
+  },
+  "strike": 142,
+  "lastPrice": 9.28,
+  "bid": 8.8,
+  "ask": 9.65,
+  "change": -0.52000046,
+  "percentChange": -5.306127,
+  "volume": 361,
+  "openInterest": 5770,
+  "impliedVolatility": 0.42090422851562503,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388bd29103d797533333"
+  },
+  "contractSymbol": "AAPL230217C00143000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062751000"
+    }
+  },
+  "strike": 143,
+  "lastPrice": 8.66,
+  "bid": 7.95,
+  "ask": 8.75,
+  "change": -0.14000034,
+  "percentChange": -1.5909129,
+  "volume": 212,
+  "openInterest": 2423,
+  "impliedVolatility": 0.40820904296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533334"
+  },
+  "contractSymbol": "AAPL230217C00144000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062386000"
+    }
+  },
+  "strike": 144,
+  "lastPrice": 7.6,
+  "bid": 6.95,
+  "ask": 7.85,
+  "change": -0.4000001,
+  "percentChange": -5.000001,
+  "volume": 327,
+  "openInterest": 5130,
+  "impliedVolatility": 0.3918517846679687,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533335"
+  },
+  "contractSymbol": "AAPL230217C00145000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062795000"
+    }
+  },
+  "strike": 145,
+  "lastPrice": 6.9,
+  "bid": 6.8,
+  "ask": 7.1,
+  "change": 0.05000019,
+  "percentChange": 0.7299298,
+  "volume": 2627,
+  "openInterest": 28980,
+  "impliedVolatility": 0.397466962890625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533336"
+  },
+  "contractSymbol": "AAPL230217C00146000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061681000"
+    }
+  },
+  "strike": 146,
+  "lastPrice": 6,
+  "bid": 6,
+  "ask": 6.15,
+  "change": -0.1500001,
+  "percentChange": -2.4390259,
+  "volume": 604,
+  "openInterest": 4439,
+  "impliedVolatility": 0.366217275390625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533337"
+  },
+  "contractSymbol": "AAPL230217C00147000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062701000"
+    }
+  },
+  "strike": 147,
+  "lastPrice": 5.42,
+  "bid": 5.25,
+  "ask": 5.4,
+  "change": -0.17999983,
+  "percentChange": -3.2142825,
+  "volume": 2963,
+  "openInterest": 5971,
+  "impliedVolatility": 0.36133451171875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533338"
+  },
+  "contractSymbol": "AAPL230217C00148000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062738000"
+    }
+  },
+  "strike": 148,
+  "lastPrice": 4.65,
+  "bid": 4.55,
+  "ask": 4.65,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1347,
+  "openInterest": 4823,
+  "impliedVolatility": 0.35108070800781244,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533339"
+  },
+  "contractSymbol": "AAPL230217C00149000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062754000"
+    }
+  },
+  "strike": 149,
+  "lastPrice": 4,
+  "bid": 3.85,
+  "ask": 4,
+  "change": -0.099999905,
+  "percentChange": -2.439022,
+  "volume": 1835,
+  "openInterest": 5035,
+  "impliedVolatility": 0.3481510498046875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333a"
+  },
+  "contractSymbol": "AAPL230217C00150000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062793000"
+    }
+  },
+  "strike": 150,
+  "lastPrice": 3.32,
+  "bid": 3.25,
+  "ask": 3.4,
+  "change": -0.13000011,
+  "percentChange": -3.7681193,
+  "volume": 19487,
+  "openInterest": 57220,
+  "impliedVolatility": 0.344733115234375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333b"
+  },
+  "contractSymbol": "AAPL230217C00152500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062798000"
+    }
+  },
+  "strike": 152.5,
+  "lastPrice": 2.05,
+  "bid": 2.03,
+  "ask": 2.05,
+  "change": -0.21000004,
+  "percentChange": -9.292037,
+  "volume": 21396,
+  "openInterest": 18997,
+  "impliedVolatility": 0.32569033691406246,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333c"
+  },
+  "contractSymbol": "AAPL230217C00155000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062792000"
+    }
+  },
+  "strike": 155,
+  "lastPrice": 1.13,
+  "bid": 1.1,
+  "ask": 1.13,
+  "change": -0.24000001,
+  "percentChange": -17.51825,
+  "volume": 21706,
+  "openInterest": 52226,
+  "impliedVolatility": 0.3149482568359374,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333d"
+  },
+  "contractSymbol": "AAPL230217C00157500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062797000"
+    }
+  },
+  "strike": 157.5,
+  "lastPrice": 0.56,
+  "bid": 0.55,
+  "ask": 0.56,
+  "change": -0.19999999,
+  "percentChange": -26.315788,
+  "volume": 13443,
+  "openInterest": 13748,
+  "impliedVolatility": 0.30762411132812495,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333e"
+  },
+  "contractSymbol": "AAPL230217C00160000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 160,
+  "lastPrice": 0.25,
+  "bid": 0.24,
+  "ask": 0.25,
+  "change": -0.16999999,
+  "percentChange": -40.47619,
+  "volume": 14982,
+  "openInterest": 40791,
+  "impliedVolatility": 0.30274134765625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753333f"
+  },
+  "contractSymbol": "AAPL230217C00162500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062789000"
+    }
+  },
+  "strike": 162.5,
+  "lastPrice": 0.11,
+  "bid": 0.1,
+  "ask": 0.12,
+  "change": -0.099999994,
+  "percentChange": -47.619045,
+  "volume": 4718,
+  "openInterest": 21274,
+  "impliedVolatility": 0.309577216796875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533340"
+  },
+  "contractSymbol": "AAPL230217C00165000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062785000"
+    }
+  },
+  "strike": 165,
+  "lastPrice": 0.07,
+  "bid": 0.06,
+  "ask": 0.07,
+  "change": -0.059999995,
+  "percentChange": -46.153843,
+  "volume": 5583,
+  "openInterest": 37604,
+  "impliedVolatility": 0.32813171874999997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533341"
+  },
+  "contractSymbol": "AAPL230217C00167500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062749000"
+    }
+  },
+  "strike": 167.5,
+  "lastPrice": 0.03,
+  "bid": 0.03,
+  "ask": 0.04,
+  "change": -0.03,
+  "percentChange": -50,
+  "volume": 1111,
+  "openInterest": 4077,
+  "impliedVolatility": 0.3437565625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533342"
+  },
+  "contractSymbol": "AAPL230217C00170000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 170,
+  "lastPrice": 0.02,
+  "bid": 0.02,
+  "ask": 0.03,
+  "change": -0.02,
+  "percentChange": -50,
+  "volume": 1450,
+  "openInterest": 14563,
+  "impliedVolatility": 0.3711000390625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533343"
+  },
+  "contractSymbol": "AAPL230217C00172500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061339000"
+    }
+  },
+  "strike": 172.5,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 240,
+  "openInterest": 3339,
+  "impliedVolatility": 0.39063109375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533344"
+  },
+  "contractSymbol": "AAPL230217C00175000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061931000"
+    }
+  },
+  "strike": 175,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 211,
+  "openInterest": 43087,
+  "impliedVolatility": 0.42969320312500003,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533345"
+  },
+  "contractSymbol": "AAPL230217C00180000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061492000"
+    }
+  },
+  "strike": 180,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 99,
+  "openInterest": 13509,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533346"
+  },
+  "contractSymbol": "AAPL230217C00185000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676057659000"
+    }
+  },
+  "strike": 185,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 34,
+  "openInterest": 7772,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533347"
+  },
+  "contractSymbol": "AAPL230217C00190000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675959221000"
+    }
+  },
+  "strike": 190,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 5268,
+  "impliedVolatility": 0.5468795312500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533348"
+  },
+  "contractSymbol": "AAPL230217C00195000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061114000"
+    }
+  },
+  "strike": 195,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 22,
+  "openInterest": 4906,
+  "impliedVolatility": 0.6093789062500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533349"
+  },
+  "contractSymbol": "AAPL230217C00200000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062446000"
+    }
+  },
+  "strike": 200,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 10,
+  "openInterest": 11041,
+  "impliedVolatility": 0.6562534375000001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334a"
+  },
+  "contractSymbol": "AAPL230217C00205000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675881769000"
+    }
+  },
+  "strike": 205,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 9,
+  "openInterest": 5362,
+  "impliedVolatility": 0.7187528125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334b"
+  },
+  "contractSymbol": "AAPL230217C00210000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675878913000"
+    }
+  },
+  "strike": 210,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 2690,
+  "impliedVolatility": 0.7656273437500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334c"
+  },
+  "contractSymbol": "AAPL230217C00215000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675709733000"
+    }
+  },
+  "strike": 215,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 44,
+  "openInterest": 2986,
+  "impliedVolatility": 0.8125018749999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334d"
+  },
+  "contractSymbol": "AAPL230217C00220000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675457698000"
+    }
+  },
+  "strike": 220,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 807,
+  "openInterest": 2806,
+  "impliedVolatility": 0.87500125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334e"
+  },
+  "contractSymbol": "AAPL230217C00225000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437984000"
+    }
+  },
+  "strike": 225,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 522,
+  "openInterest": 1998,
+  "impliedVolatility": 0.9062509375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753334f"
+  },
+  "contractSymbol": "AAPL230217C00230000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437315000"
+    }
+  },
+  "strike": 230,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 641,
+  "impliedVolatility": 0.9687503125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533350"
+  },
+  "contractSymbol": "AAPL230217C00235000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675368883000"
+    }
+  },
+  "strike": 235,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 91,
+  "openInterest": 571,
+  "impliedVolatility": 1.000005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533351"
+  },
+  "contractSymbol": "AAPL230217C00240000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675363285000"
+    }
+  },
+  "strike": 240,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 68,
+  "openInterest": 294,
+  "impliedVolatility": 1.0312548437500002,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533352"
+  },
+  "contractSymbol": "AAPL230217C00245000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675369509000"
+    }
+  },
+  "strike": 245,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 262,
+  "impliedVolatility": 1.09375453125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533353"
+  },
+  "contractSymbol": "AAPL230217C00250000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675367257000"
+    }
+  },
+  "strike": 250,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 104,
+  "openInterest": 681,
+  "impliedVolatility": 1.125004375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533354"
+  },
+  "contractSymbol": "AAPL230217C00255000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675447892000"
+    }
+  },
+  "strike": 255,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 623,
+  "impliedVolatility": 1.15625421875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533355"
+  },
+  "contractSymbol": "AAPL230217C00260000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675370059000"
+    }
+  },
+  "strike": 260,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 315,
+  "impliedVolatility": 1.1875040625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533356"
+  },
+  "contractSymbol": "AAPL230217C00265000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675358977000"
+    }
+  },
+  "strike": 265,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 347,
+  "impliedVolatility": 1.2500037499999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533357"
+  },
+  "contractSymbol": "AAPL230217C00270000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1671049005000"
+    }
+  },
+  "strike": 270,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 145,
+  "impliedVolatility": 1.2812535937499998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533358"
+  },
+  "contractSymbol": "AAPL230217C00275000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673362950000"
+    }
+  },
+  "strike": 275,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 637,
+  "impliedVolatility": 1.3125034374999998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d797533359"
+  },
+  "contractSymbol": "AAPL230217C00280000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673016431000"
+    }
+  },
+  "strike": 280,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 424,
+  "impliedVolatility": 1.3437532812499997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753335a"
+  },
+  "contractSymbol": "AAPL230217C00285000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672862947000"
+    }
+  },
+  "strike": 285,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 250,
+  "openInterest": 652,
+  "impliedVolatility": 1.3750031249999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753335b"
+  },
+  "contractSymbol": "AAPL230217C00290000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672856186000"
+    }
+  },
+  "strike": 290,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 350,
+  "openInterest": 512,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753335c"
+  },
+  "contractSymbol": "AAPL230217C00295000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672842841000"
+    }
+  },
+  "strike": 295,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 300,
+  "openInterest": 1052,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e7388cd29103d79753335d"
+  },
+  "contractSymbol": "AAPL230217C00300000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675870650000"
+    }
+  },
+  "strike": 300,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 8,
+  "openInterest": 1365,
+  "impliedVolatility": 1.5000025,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f828"
+  },
+  "contractSymbol": "AAPL230217C00045000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675975976000"
+    }
+  },
+  "strike": 45,
+  "lastPrice": 106,
+  "bid": 104.9,
+  "ask": 107.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 0,
+  "impliedVolatility": 5.158206677246094,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f829"
+  },
+  "contractSymbol": "AAPL230217C00050000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967037000"
+    }
+  },
+  "strike": 50,
+  "lastPrice": 102.5,
+  "bid": 99.95,
+  "ask": 102.3,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7990,
+  "openInterest": 9,
+  "impliedVolatility": 3.3593766015624995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82a"
+  },
+  "contractSymbol": "AAPL230217C00055000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 55,
+  "lastPrice": 96.2,
+  "bid": 94.95,
+  "ask": 97,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4770,
+  "openInterest": 0,
+  "impliedVolatility": 4.3183639770507805,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82b"
+  },
+  "contractSymbol": "AAPL230217C00060000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675976100000"
+    }
+  },
+  "strike": 60,
+  "lastPrice": 91.2,
+  "bid": 89.95,
+  "ask": 92.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 4249,
+  "openInterest": 20,
+  "impliedVolatility": 2.281254296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82c"
+  },
+  "contractSymbol": "AAPL230217C00065000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967030000"
+    }
+  },
+  "strike": 65,
+  "lastPrice": 87.46,
+  "bid": 84.9,
+  "ask": 87.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2350,
+  "openInterest": 1,
+  "impliedVolatility": 2.0937547656249995,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82d"
+  },
+  "contractSymbol": "AAPL230217C00070000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 70,
+  "lastPrice": 82.65,
+  "bid": 80,
+  "ask": 81.95,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 475,
+  "openInterest": 14,
+  "impliedVolatility": 3.3437516406249994,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82e"
+  },
+  "contractSymbol": "AAPL230217C00075000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675967025000"
+    }
+  },
+  "strike": 75,
+  "lastPrice": 77.45,
+  "bid": 74.9,
+  "ask": 77.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1411,
+  "openInterest": 0,
+  "impliedVolatility": 1.75000125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f82f"
+  },
+  "contractSymbol": "AAPL230217C00080000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676047689000"
+    }
+  },
+  "strike": 80,
+  "lastPrice": 69.94,
+  "bid": 69.9,
+  "ask": 72.1,
+  "change": -1.909996,
+  "percentChange": -2.6583104,
+  "volume": 5,
+  "openInterest": 20,
+  "impliedVolatility": 2.9199245751953127,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f830"
+  },
+  "contractSymbol": "AAPL230217C00085000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061657000"
+    }
+  },
+  "strike": 85,
+  "lastPrice": 65.75,
+  "bid": 64.95,
+  "ask": 67,
+  "change": -1.9000015,
+  "percentChange": -2.8085756,
+  "volume": 7,
+  "openInterest": 5,
+  "impliedVolatility": 2.6250034375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f831"
+  },
+  "contractSymbol": "AAPL230217C00090000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055075000"
+    }
+  },
+  "strike": 90,
+  "lastPrice": 60.71,
+  "bid": 59.95,
+  "ask": 62.05,
+  "change": -1.8899994,
+  "percentChange": -3.0191684,
+  "volume": 33,
+  "openInterest": 43,
+  "impliedVolatility": 2.4287148657226565,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f832"
+  },
+  "contractSymbol": "AAPL230217C00095000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675974835000"
+    }
+  },
+  "strike": 95,
+  "lastPrice": 55.6,
+  "bid": 54.9,
+  "ask": 57.05,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 7551,
+  "openInterest": 3,
+  "impliedVolatility": 2.2138716528320304,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f833"
+  },
+  "contractSymbol": "AAPL230217C00100000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054131000"
+    }
+  },
+  "strike": 100,
+  "lastPrice": 50.81,
+  "bid": 49.9,
+  "ask": 52.1,
+  "change": -1.1699982,
+  "percentChange": -2.2508624,
+  "volume": 29,
+  "openInterest": 64,
+  "impliedVolatility": 2.032231481933594,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f834"
+  },
+  "contractSymbol": "AAPL230217C00105000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676054935000"
+    }
+  },
+  "strike": 105,
+  "lastPrice": 45.7,
+  "bid": 44.95,
+  "ask": 47.1,
+  "change": -1.2000008,
+  "percentChange": -2.558637,
+  "volume": 2,
+  "openInterest": 6,
+  "impliedVolatility": 0.9531254687499999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f835"
+  },
+  "contractSymbol": "AAPL230217C00110000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046750000"
+    }
+  },
+  "strike": 110,
+  "lastPrice": 40.2,
+  "bid": 39.95,
+  "ask": 42.05,
+  "change": -0.34999847,
+  "percentChange": -0.8631282,
+  "volume": 13,
+  "openInterest": 37,
+  "impliedVolatility": 1.625001875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f836"
+  },
+  "contractSymbol": "AAPL230217C00115000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042202000"
+    }
+  },
+  "strike": 115,
+  "lastPrice": 35.75,
+  "bid": 35,
+  "ask": 36.85,
+  "change": -1.8600006,
+  "percentChange": -4.9454947,
+  "volume": 4,
+  "openInterest": 14,
+  "impliedVolatility": 1.3681672216796876,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f837"
+  },
+  "contractSymbol": "AAPL230217C00116000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675094259000"
+    }
+  },
+  "strike": 116,
+  "lastPrice": 28.1,
+  "bid": 33.95,
+  "ask": 36.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.9433599414062499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f838"
+  },
+  "contractSymbol": "AAPL230217C00118000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676053415000"
+    }
+  },
+  "strike": 118,
+  "lastPrice": 33,
+  "bid": 32,
+  "ask": 34.35,
+  "change": 6.5,
+  "percentChange": 24.528303,
+  "volume": 6,
+  "openInterest": 0,
+  "impliedVolatility": 0.914063359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f839"
+  },
+  "contractSymbol": "AAPL230217C00119000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675280886000"
+    }
+  },
+  "strike": 119,
+  "lastPrice": 26.3,
+  "bid": 30.95,
+  "ask": 33.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8876964355468748,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83a"
+  },
+  "contractSymbol": "AAPL230217C00120000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062571000"
+    }
+  },
+  "strike": 120,
+  "lastPrice": 31.1,
+  "bid": 29.95,
+  "ask": 31.4,
+  "change": -1.7199993,
+  "percentChange": -5.240705,
+  "volume": 92,
+  "openInterest": 259,
+  "impliedVolatility": 1.0078174609375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83b"
+  },
+  "contractSymbol": "AAPL230217C00121000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675277199000"
+    }
+  },
+  "strike": 121,
+  "lastPrice": 21.67,
+  "bid": 29,
+  "ask": 31.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 0,
+  "impliedVolatility": 0.8339860351562498,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83c"
+  },
+  "contractSymbol": "AAPL230217C00122000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675348942000"
+    }
+  },
+  "strike": 122,
+  "lastPrice": 27.53,
+  "bid": 28,
+  "ask": 30.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": {
+    "$numberDouble": "NaN"
+  },
+  "openInterest": 0,
+  "impliedVolatility": 0.8085956640624999,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83d"
+  },
+  "contractSymbol": "AAPL230217C00123000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675283470000"
+    }
+  },
+  "strike": 123,
+  "lastPrice": 22.8,
+  "bid": 27.05,
+  "ask": 29.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 3,
+  "openInterest": 0,
+  "impliedVolatility": 0.8007832421875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83e"
+  },
+  "contractSymbol": "AAPL230217C00124000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675793866000"
+    }
+  },
+  "strike": 124,
+  "lastPrice": 29.65,
+  "bid": 26,
+  "ask": 28.15,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 2,
+  "openInterest": 0,
+  "impliedVolatility": 0.6543003320312502,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f83f"
+  },
+  "contractSymbol": "AAPL230217C00125000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676050719000"
+    }
+  },
+  "strike": 125,
+  "lastPrice": 25,
+  "bid": 25,
+  "ask": 27.2,
+  "change": -1.0900002,
+  "percentChange": -4.1778464,
+  "volume": 9,
+  "openInterest": 170,
+  "impliedVolatility": 0.6621127539062501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f840"
+  },
+  "contractSymbol": "AAPL230217C00126000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 126,
+  "lastPrice": 26,
+  "bid": 24.05,
+  "ask": 26.35,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 1,
+  "impliedVolatility": 0.72070591796875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f841"
+  },
+  "contractSymbol": "AAPL230217C00127000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675970553000"
+    }
+  },
+  "strike": 127,
+  "lastPrice": 25,
+  "bid": 23.1,
+  "ask": 25.4,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 107,
+  "openInterest": 0,
+  "impliedVolatility": 0.725588681640625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f842"
+  },
+  "contractSymbol": "AAPL230217C00128000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676042313000"
+    }
+  },
+  "strike": 128,
+  "lastPrice": 23,
+  "bid": 22,
+  "ask": 23.35,
+  "change": -1,
+  "percentChange": -4.166667,
+  "volume": 28,
+  "openInterest": 24,
+  "impliedVolatility": 0.7490259472656251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f843"
+  },
+  "contractSymbol": "AAPL230217C00129000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675960492000"
+    }
+  },
+  "strike": 129,
+  "lastPrice": 23.9,
+  "bid": 21.1,
+  "ask": 23.1,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 2,
+  "impliedVolatility": 0.5644574804687501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f844"
+  },
+  "contractSymbol": "AAPL230217C00130000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060829000"
+    }
+  },
+  "strike": 130,
+  "lastPrice": 20.6,
+  "bid": 21.1,
+  "ask": 21.3,
+  "change": -0.29999924,
+  "percentChange": -1.4354031,
+  "volume": 46,
+  "openInterest": 3004,
+  "impliedVolatility": 0.6152382226562501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f845"
+  },
+  "contractSymbol": "AAPL230217C00131000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039591000"
+    }
+  },
+  "strike": 131,
+  "lastPrice": 19.35,
+  "bid": 19.6,
+  "ask": 21.4,
+  "change": -0.69999886,
+  "percentChange": -3.491266,
+  "volume": 1,
+  "openInterest": 19,
+  "impliedVolatility": 0.7216824707031251,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f846"
+  },
+  "contractSymbol": "AAPL230217C00132000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676046815000"
+    }
+  },
+  "strike": 132,
+  "lastPrice": 18.3,
+  "bid": 18,
+  "ask": 19.4,
+  "change": -1.6200008,
+  "percentChange": -8.132534,
+  "volume": 22,
+  "openInterest": 33,
+  "impliedVolatility": 0.6552768847656252,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f847"
+  },
+  "contractSymbol": "AAPL230217C00133000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676056769000"
+    }
+  },
+  "strike": 133,
+  "lastPrice": 17.5,
+  "bid": 17.1,
+  "ask": 19.15,
+  "change": -0.45000076,
+  "percentChange": -2.506968,
+  "volume": 2,
+  "openInterest": 56,
+  "impliedVolatility": 0.8378922460937499,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f848"
+  },
+  "contractSymbol": "AAPL230217C00134000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676039442000"
+    }
+  },
+  "strike": 134,
+  "lastPrice": 16.25,
+  "bid": 16.05,
+  "ask": 18.4,
+  "change": -0.8999996,
+  "percentChange": -5.2478113,
+  "volume": 10,
+  "openInterest": 353,
+  "impliedVolatility": 0.524418818359375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f849"
+  },
+  "contractSymbol": "AAPL230217C00135000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062275000"
+    }
+  },
+  "strike": 135,
+  "lastPrice": 16,
+  "bid": 16,
+  "ask": 16.4,
+  "change": -0.010000229,
+  "percentChange": -0.06246239,
+  "volume": 532,
+  "openInterest": 29215,
+  "impliedVolatility": 0.56836369140625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84a"
+  },
+  "contractSymbol": "AAPL230217C00136000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675973411000"
+    }
+  },
+  "strike": 136,
+  "lastPrice": 15.53,
+  "bid": 14.05,
+  "ask": 16.5,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 17,
+  "openInterest": 250,
+  "impliedVolatility": 0.804689453125,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84b"
+  },
+  "contractSymbol": "AAPL230217C00137000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061587000"
+    }
+  },
+  "strike": 137,
+  "lastPrice": 14.03,
+  "bid": 13.55,
+  "ask": 14.4,
+  "change": -0.40999985,
+  "percentChange": -2.839334,
+  "volume": 114,
+  "openInterest": 347,
+  "impliedVolatility": 0.5097705273437501,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84c"
+  },
+  "contractSymbol": "AAPL230217C00138000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676060877000"
+    }
+  },
+  "strike": 138,
+  "lastPrice": 12.72,
+  "bid": 12.45,
+  "ask": 13.5,
+  "change": -0.7699995,
+  "percentChange": -5.707928,
+  "volume": 80,
+  "openInterest": 1175,
+  "impliedVolatility": 0.5102588037109376,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84d"
+  },
+  "contractSymbol": "AAPL230217C00139000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676043392000"
+    }
+  },
+  "strike": 139,
+  "lastPrice": 11.95,
+  "bid": 11.6,
+  "ask": 13.3,
+  "change": -0.119999886,
+  "percentChange": -0.99419963,
+  "volume": 26,
+  "openInterest": 5369,
+  "impliedVolatility": 0.6557651611328126,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84e"
+  },
+  "contractSymbol": "AAPL230217C00140000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062781000"
+    }
+  },
+  "strike": 140,
+  "lastPrice": 11.4,
+  "bid": 10.85,
+  "ask": 11.6,
+  "change": 0.25999928,
+  "percentChange": 2.3339252,
+  "volume": 460,
+  "openInterest": 39591,
+  "impliedVolatility": 0.47412635253906255,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f84f"
+  },
+  "contractSymbol": "AAPL230217C00141000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676055154000"
+    }
+  },
+  "strike": 141,
+  "lastPrice": 10.09,
+  "bid": 10.25,
+  "ask": 10.65,
+  "change": -0.48999977,
+  "percentChange": -4.6313777,
+  "volume": 86,
+  "openInterest": 2507,
+  "impliedVolatility": 0.45361874511718747,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f850"
+  },
+  "contractSymbol": "AAPL230217C00142000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061488000"
+    }
+  },
+  "strike": 142,
+  "lastPrice": 9.28,
+  "bid": 8.8,
+  "ask": 9.65,
+  "change": -0.52000046,
+  "percentChange": -5.306127,
+  "volume": 361,
+  "openInterest": 5770,
+  "impliedVolatility": 0.42090422851562503,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f851"
+  },
+  "contractSymbol": "AAPL230217C00143000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062751000"
+    }
+  },
+  "strike": 143,
+  "lastPrice": 8.66,
+  "bid": 7.95,
+  "ask": 8.75,
+  "change": -0.14000034,
+  "percentChange": -1.5909129,
+  "volume": 212,
+  "openInterest": 2423,
+  "impliedVolatility": 0.40820904296875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f852"
+  },
+  "contractSymbol": "AAPL230217C00144000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062386000"
+    }
+  },
+  "strike": 144,
+  "lastPrice": 7.6,
+  "bid": 6.95,
+  "ask": 7.85,
+  "change": -0.4000001,
+  "percentChange": -5.000001,
+  "volume": 327,
+  "openInterest": 5130,
+  "impliedVolatility": 0.3918517846679687,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f853"
+  },
+  "contractSymbol": "AAPL230217C00145000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062795000"
+    }
+  },
+  "strike": 145,
+  "lastPrice": 6.9,
+  "bid": 6.8,
+  "ask": 7.1,
+  "change": 0.05000019,
+  "percentChange": 0.7299298,
+  "volume": 2627,
+  "openInterest": 28980,
+  "impliedVolatility": 0.397466962890625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f854"
+  },
+  "contractSymbol": "AAPL230217C00146000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061681000"
+    }
+  },
+  "strike": 146,
+  "lastPrice": 6,
+  "bid": 6,
+  "ask": 6.15,
+  "change": -0.1500001,
+  "percentChange": -2.4390259,
+  "volume": 604,
+  "openInterest": 4439,
+  "impliedVolatility": 0.366217275390625,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f855"
+  },
+  "contractSymbol": "AAPL230217C00147000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062701000"
+    }
+  },
+  "strike": 147,
+  "lastPrice": 5.42,
+  "bid": 5.25,
+  "ask": 5.4,
+  "change": -0.17999983,
+  "percentChange": -3.2142825,
+  "volume": 2963,
+  "openInterest": 5971,
+  "impliedVolatility": 0.36133451171875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f856"
+  },
+  "contractSymbol": "AAPL230217C00148000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062738000"
+    }
+  },
+  "strike": 148,
+  "lastPrice": 4.65,
+  "bid": 4.55,
+  "ask": 4.65,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1347,
+  "openInterest": 4823,
+  "impliedVolatility": 0.35108070800781244,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f857"
+  },
+  "contractSymbol": "AAPL230217C00149000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062754000"
+    }
+  },
+  "strike": 149,
+  "lastPrice": 4,
+  "bid": 3.85,
+  "ask": 4,
+  "change": -0.099999905,
+  "percentChange": -2.439022,
+  "volume": 1835,
+  "openInterest": 5035,
+  "impliedVolatility": 0.3481510498046875,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f858"
+  },
+  "contractSymbol": "AAPL230217C00150000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062793000"
+    }
+  },
+  "strike": 150,
+  "lastPrice": 3.32,
+  "bid": 3.25,
+  "ask": 3.4,
+  "change": -0.13000011,
+  "percentChange": -3.7681193,
+  "volume": 19487,
+  "openInterest": 57220,
+  "impliedVolatility": 0.344733115234375,
+  "inTheMoney": true,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f859"
+  },
+  "contractSymbol": "AAPL230217C00152500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062798000"
+    }
+  },
+  "strike": 152.5,
+  "lastPrice": 2.05,
+  "bid": 2.03,
+  "ask": 2.05,
+  "change": -0.21000004,
+  "percentChange": -9.292037,
+  "volume": 21396,
+  "openInterest": 18997,
+  "impliedVolatility": 0.32569033691406246,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85a"
+  },
+  "contractSymbol": "AAPL230217C00155000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062792000"
+    }
+  },
+  "strike": 155,
+  "lastPrice": 1.13,
+  "bid": 1.1,
+  "ask": 1.13,
+  "change": -0.24000001,
+  "percentChange": -17.51825,
+  "volume": 21706,
+  "openInterest": 52226,
+  "impliedVolatility": 0.3149482568359374,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85b"
+  },
+  "contractSymbol": "AAPL230217C00157500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062797000"
+    }
+  },
+  "strike": 157.5,
+  "lastPrice": 0.56,
+  "bid": 0.55,
+  "ask": 0.56,
+  "change": -0.19999999,
+  "percentChange": -26.315788,
+  "volume": 13443,
+  "openInterest": 13748,
+  "impliedVolatility": 0.30762411132812495,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85c"
+  },
+  "contractSymbol": "AAPL230217C00160000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 160,
+  "lastPrice": 0.25,
+  "bid": 0.24,
+  "ask": 0.25,
+  "change": -0.16999999,
+  "percentChange": -40.47619,
+  "volume": 14982,
+  "openInterest": 40791,
+  "impliedVolatility": 0.30274134765625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85d"
+  },
+  "contractSymbol": "AAPL230217C00162500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062789000"
+    }
+  },
+  "strike": 162.5,
+  "lastPrice": 0.11,
+  "bid": 0.1,
+  "ask": 0.12,
+  "change": -0.099999994,
+  "percentChange": -47.619045,
+  "volume": 4718,
+  "openInterest": 21274,
+  "impliedVolatility": 0.309577216796875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85e"
+  },
+  "contractSymbol": "AAPL230217C00165000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062785000"
+    }
+  },
+  "strike": 165,
+  "lastPrice": 0.07,
+  "bid": 0.06,
+  "ask": 0.07,
+  "change": -0.059999995,
+  "percentChange": -46.153843,
+  "volume": 5583,
+  "openInterest": 37604,
+  "impliedVolatility": 0.32813171874999997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f85f"
+  },
+  "contractSymbol": "AAPL230217C00167500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062749000"
+    }
+  },
+  "strike": 167.5,
+  "lastPrice": 0.03,
+  "bid": 0.03,
+  "ask": 0.04,
+  "change": -0.03,
+  "percentChange": -50,
+  "volume": 1111,
+  "openInterest": 4077,
+  "impliedVolatility": 0.3437565625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f860"
+  },
+  "contractSymbol": "AAPL230217C00170000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062799000"
+    }
+  },
+  "strike": 170,
+  "lastPrice": 0.02,
+  "bid": 0.02,
+  "ask": 0.03,
+  "change": -0.02,
+  "percentChange": -50,
+  "volume": 1450,
+  "openInterest": 14563,
+  "impliedVolatility": 0.3711000390625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f861"
+  },
+  "contractSymbol": "AAPL230217C00172500",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061339000"
+    }
+  },
+  "strike": 172.5,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 240,
+  "openInterest": 3339,
+  "impliedVolatility": 0.39063109375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f862"
+  },
+  "contractSymbol": "AAPL230217C00175000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061931000"
+    }
+  },
+  "strike": 175,
+  "lastPrice": 0.01,
+  "bid": 0.01,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 211,
+  "openInterest": 43087,
+  "impliedVolatility": 0.42969320312500003,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f863"
+  },
+  "contractSymbol": "AAPL230217C00180000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061492000"
+    }
+  },
+  "strike": 180,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.02,
+  "change": -0.01,
+  "percentChange": -50,
+  "volume": 99,
+  "openInterest": 13509,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f864"
+  },
+  "contractSymbol": "AAPL230217C00185000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676057659000"
+    }
+  },
+  "strike": 185,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 34,
+  "openInterest": 7772,
+  "impliedVolatility": 0.500005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f865"
+  },
+  "contractSymbol": "AAPL230217C00190000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675959221000"
+    }
+  },
+  "strike": 190,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 5268,
+  "impliedVolatility": 0.5468795312500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f866"
+  },
+  "contractSymbol": "AAPL230217C00195000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676061114000"
+    }
+  },
+  "strike": 195,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 22,
+  "openInterest": 4906,
+  "impliedVolatility": 0.6093789062500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f867"
+  },
+  "contractSymbol": "AAPL230217C00200000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1676062446000"
+    }
+  },
+  "strike": 200,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 10,
+  "openInterest": 11041,
+  "impliedVolatility": 0.6562534375000001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f868"
+  },
+  "contractSymbol": "AAPL230217C00205000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675881769000"
+    }
+  },
+  "strike": 205,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 9,
+  "openInterest": 5362,
+  "impliedVolatility": 0.7187528125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f869"
+  },
+  "contractSymbol": "AAPL230217C00210000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675878913000"
+    }
+  },
+  "strike": 210,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 2690,
+  "impliedVolatility": 0.7656273437500001,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86a"
+  },
+  "contractSymbol": "AAPL230217C00215000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675709733000"
+    }
+  },
+  "strike": 215,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 44,
+  "openInterest": 2986,
+  "impliedVolatility": 0.8125018749999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86b"
+  },
+  "contractSymbol": "AAPL230217C00220000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675457698000"
+    }
+  },
+  "strike": 220,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 807,
+  "openInterest": 2806,
+  "impliedVolatility": 0.87500125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86c"
+  },
+  "contractSymbol": "AAPL230217C00225000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437984000"
+    }
+  },
+  "strike": 225,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 522,
+  "openInterest": 1998,
+  "impliedVolatility": 0.9062509375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86d"
+  },
+  "contractSymbol": "AAPL230217C00230000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675437315000"
+    }
+  },
+  "strike": 230,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 641,
+  "impliedVolatility": 0.9687503125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86e"
+  },
+  "contractSymbol": "AAPL230217C00235000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675368883000"
+    }
+  },
+  "strike": 235,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 91,
+  "openInterest": 571,
+  "impliedVolatility": 1.000005,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f86f"
+  },
+  "contractSymbol": "AAPL230217C00240000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675363285000"
+    }
+  },
+  "strike": 240,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 68,
+  "openInterest": 294,
+  "impliedVolatility": 1.0312548437500002,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f870"
+  },
+  "contractSymbol": "AAPL230217C00245000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675369509000"
+    }
+  },
+  "strike": 245,
+  "lastPrice": 0.02,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 5,
+  "openInterest": 262,
+  "impliedVolatility": 1.09375453125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f871"
+  },
+  "contractSymbol": "AAPL230217C00250000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675367257000"
+    }
+  },
+  "strike": 250,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 104,
+  "openInterest": 681,
+  "impliedVolatility": 1.125004375,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f872"
+  },
+  "contractSymbol": "AAPL230217C00255000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675447892000"
+    }
+  },
+  "strike": 255,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 623,
+  "impliedVolatility": 1.15625421875,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f873"
+  },
+  "contractSymbol": "AAPL230217C00260000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675370059000"
+    }
+  },
+  "strike": 260,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 315,
+  "impliedVolatility": 1.1875040625,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f874"
+  },
+  "contractSymbol": "AAPL230217C00265000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675358977000"
+    }
+  },
+  "strike": 265,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 100,
+  "openInterest": 347,
+  "impliedVolatility": 1.2500037499999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f875"
+  },
+  "contractSymbol": "AAPL230217C00270000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1671049005000"
+    }
+  },
+  "strike": 270,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 1,
+  "openInterest": 145,
+  "impliedVolatility": 1.2812535937499998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f876"
+  },
+  "contractSymbol": "AAPL230217C00275000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673362950000"
+    }
+  },
+  "strike": 275,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 637,
+  "impliedVolatility": 1.3125034374999998,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f877"
+  },
+  "contractSymbol": "AAPL230217C00280000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1673016431000"
+    }
+  },
+  "strike": 280,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 400,
+  "openInterest": 424,
+  "impliedVolatility": 1.3437532812499997,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f878"
+  },
+  "contractSymbol": "AAPL230217C00285000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672862947000"
+    }
+  },
+  "strike": 285,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 250,
+  "openInterest": 652,
+  "impliedVolatility": 1.3750031249999999,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f879"
+  },
+  "contractSymbol": "AAPL230217C00290000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672856186000"
+    }
+  },
+  "strike": 290,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 350,
+  "openInterest": 512,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f87a"
+  },
+  "contractSymbol": "AAPL230217C00295000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1672842841000"
+    }
+  },
+  "strike": 295,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 300,
+  "openInterest": 1052,
+  "impliedVolatility": 1.4375028125,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+},{
+  "_id": {
+    "$oid": "63e73ba58ccfea43b5a8f87b"
+  },
+  "contractSymbol": "AAPL230217C00300000",
+  "lastTradeDate": {
+    "$date": {
+      "$numberLong": "1675870650000"
+    }
+  },
+  "strike": 300,
+  "lastPrice": 0.01,
+  "bid": 0,
+  "ask": 0.01,
+  "change": 0,
+  "percentChange": 0,
+  "volume": 8,
+  "openInterest": 1365,
+  "impliedVolatility": 1.5000025,
+  "inTheMoney": false,
+  "contractSize": "REGULAR",
+  "currency": "USD"
+}]

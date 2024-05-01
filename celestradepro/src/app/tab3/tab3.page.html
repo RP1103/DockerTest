@@ -1,0 +1,162 @@
+<ion-header>
+  <app-forexchart></app-forexchart>
+</ion-header>
+
+<ion-content class="class">
+  <ion-segment [(ngModel)]="selectTabs">
+    <ion-segment-button value="recent">
+      <ion-label>List View</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="missed">
+      <ion-label>Chart View</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="tile">
+      <ion-label>Tile View</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="research">
+      <ion-label>Research</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div *ngIf="selectTabs === 'missed'">
+    <app-forexch></app-forexch>
+  </div>
+
+  <div *ngIf="selectTabs ==='recent'">
+    <h4>Forex Name</h4>
+    <ion-searchbar [(ngModel)]="searchTerm" (ionChange)="getDataBySymbol(searchTerm)"></ion-searchbar>
+    <ion-grid class="col" >
+      <ion-row *ngFor="let forex of  searchedForexs | filter: searchTerm" >
+        <ion-col col-4>
+          <ion-label class="ch">{{ forex.symbol }}</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>{{ forex.values[0].Open.toFixed(4) }}</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>{{ forex.values[0].Close.toFixed(4) }}</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>{{ forex.values[0].High.toFixed(4) }}</ion-label>
+        </ion-col>
+        <ion-col col-4 >
+          <ion-label>{{ forex.values[0].Low.toFixed(4) }}</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>{{ forex.values[1].Change.toFixed(4) }}</ion-label>
+        </ion-col>
+        <ion-col col-4 >
+          <ion-label>{{ forex.values[1].PercentChange.toFixed(4) }}%</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>{{ forex.values[0]['Adj Close'].toFixed(4) }}</ion-label>
+        </ion-col>
+        
+        <ion-col col-4>
+          <ion-button (click)=" addSelectedForex(forex)">Add</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="col">
+      <ion-row style="border-top:groove">
+        <ion-col col-4>
+          <ion-label (click)="sortSymbols()" class="sort-label"> Symbol
+            <ion-icon name="arrow-down-outline" *ngIf="sortOrder === 'asc'"></ion-icon>
+            <ion-icon name="arrow-up-outline" *ngIf="sortOrder === 'desc'"></ion-icon>
+            <ion-icon name="swap-vertical" *ngIf="sortOrder === ''"></ion-icon>
+          </ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Open</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>High</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Low</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Close</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Change</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Chg%</ion-label>
+        </ion-col>
+        <ion-col col-2>
+          <ion-label>Adj Close</ion-label>
+        </ion-col>
+        <ion-col col-4></ion-col>
+      </ion-row>
+    </ion-grid>
+
+      <ion-grid *ngIf="selectedForexs && selectedForexs.length > 0" class="col">
+          <ion-row *ngFor="let forex of selectedForexs" style="border-top:groove">
+              <ng-container *ngIf="forex.currentDataIndex !== undefined">
+        <ion-col col-4 id="c5">
+            <ion-label class="ch" (click)="setClickedForex(forex.symbol)">{{ forex.symbol }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5">
+            <ion-label>{{ forex.values[forex.currentDataIndex].Open.toFixed(2) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5"style="color: green;" >
+            <ion-label>{{ forex.values[0].High.toFixed(4) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5" style="color: red;">
+            <ion-label>{{ forex.values[0].Low.toFixed(4) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5">
+            <ion-label>{{ forex.values[forex.currentDataIndex].Close.toFixed(2) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5" [style.color]="getChangeColor(forex.values[1].Change)">
+            <ion-label>{{ forex.values[forex.currentDataIndex].Change.toFixed(2) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5"[style.color]="getChangeColor(forex.values[1].PercentChange)">
+            <ion-label>{{ forex.values[forex.currentDataIndex].PercentChange.toFixed(2) }}%</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5">
+            <ion-label>{{ forex.values[forex.currentDataIndex]['Adj Close'].toFixed(2) }}</ion-label>
+          </ion-col>
+          <ion-col col-4 id="c5">
+            <ion-button (click)="removeSelectedForex(forex )">Remove</ion-button>
+          </ion-col>
+          </ng-container>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div *ngIf="selectTabs === 'tile'" class="grid-container">
+        <app-fmultichart></app-fmultichart>
+    </div>
+    
+  
+  <div *ngIf="selectTabs === 'research' ">
+   <details>
+      <summary>INTEREST AND RATES</summary>
+      <app-interest></app-interest>
+    </details>
+    <details>
+      <!--summary>FUNDAMENTAL VIEW</summary-->
+      <summary>FOREX HEAT MAP</summary>
+      <app-fundamentalview></app-fundamentalview>
+    </details>
+    <details>
+      <summary>NEWS</summary>
+      <app-news></app-news>
+    </details>
+    <details>
+      <summary>FOREX CROSS RATES</summary>
+      <app-forexcross></app-forexcross>
+    </details>
+    <details>
+      <summary>SCREENER CROSS RATES</summary>
+      <app-screener></app-screener>
+    </details>
+    <details>
+      <summary>ECONOMIC CALENDAR</summary>
+      <app-calender></app-calender>
+    </details>
+  </div>
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="detail"></ion-back-button>
+      <ion-title>Stocks</ion-title>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="stockForm" (ngSubmit)="onSubmit()">
+      
+      <ion-item>
+        <ion-label position="floating">Open</ion-label>
+        <ion-input formControlName="Open" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">High</ion-label>
+        <ion-input formControlName="High" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Low</ion-label>
+        <ion-input formControlName="Low" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Close</ion-label>
+        <ion-input formControlName="Close" type="text" required>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Volume</ion-label>
+        <ion-input formControlName="Volume" type="text" required>
+        </ion-input>
+      </ion-item>
+
+
+     
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="success" expand="block">Update</ion-button>
+        </ion-col>
+      </ion-row>
+      
+    </form>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,192 @@
+ion-header{
+  height: 13%;
+}
+
+.forex-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forex-table th,
+.forex-table td {
+  padding: 8px;
+  text-align: left;
+
+}
+
+.forex-table th {
+  background-color: #5680f2;
+  color: white;
+}
+
+.forex-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+summary{
+  margin-left: 40px;
+  margin-top: 20px;
+  color: rgb(94, 10, 190);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ #news{
+  text-decoration: none;
+  margin-left: 60px;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+ }
+
+.tool{
+ --background: dodgerblue;
+ text-align: center;
+}
+ion-title{
+  --background: dodgerblue;
+}
+.cl1{
+    background-color: aquamarine;
+}
+.c1{
+    --background: crimson;
+    margin-left: 90px;
+}
+.c3{
+    --background: crimson;
+    margin-left: 230px;
+    margin-top: -65px;
+}
+.class1{
+    position: absolute;
+    margin-left:20px;
+    margin-top: 50px;
+    font-family:Times New Roman !important;
+ font-size:1.1em;
+
+}
+h1{
+  margin-left: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(14, 134, 233) ;
+}
+h2{
+  margin-left: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(41, 151, 133) ;
+}
+.card1{
+  --background:rgb(144, 140, 148);
+  height: 40%;
+  width: 55%;
+  margin-left: 25%;
+}
+
+#head{
+  font-size: larger;
+  font-weight: bold;
+}
+
+ion-label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: large;
+}
+#h1{
+  text-align: center;
+  color: rgb(16, 117, 248);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ion-segment{
+  ion-label{
+  color:#E62C1E;
+  font-size: medium;
+  font-weight: bolder;
+}
+}
+ion-button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 100;
+  margin-left: 80px;
+}
+ion-card-content{
+  padding: 20px;
+  padding-left: 25%;
+
+  p{
+    color: #000;
+    font-size: large;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:rgb(224, 172, 75);
+  }
+}
+ion-card-title{
+  text-align: center;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgba(153, 5, 121, 0.959);
+  font-weight: bold;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+#card{
+  --background:rgb(216, 216, 221);
+}
+}
+.grid-item {
+
+  border: 1px  rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.positive-value {
+  color: green;
+}
+
+.negative-value {
+  color: red;
+}
+.header-row{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: large;
+
+}
+.footer-row{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: rgb(216, 223, 223);
+}
+
+h4{
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 20px;
+ // color: #E62C1E;
+}
+.ch{
+  color: #E62C1E;
+}
+.col {
+  padding-left: 20px; /* Adjust as needed */
+  padding-right: 20px; /* Adjust as needed */
+}
+ion-searchbar{
+  padding-left: 25px;
+  padding-right: 50px;
+  border-radius: 3px;
+}
+#c5{
+  background-color: rgb(204, 212, 212);
+}

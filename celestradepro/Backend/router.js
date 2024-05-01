@@ -1,0 +1,63 @@
+const express = require('express');
+const router = express.Router();
+
+const interestController = require('./interestController');
+const CalendarController = require('./CalendarController');
+const PortfolioController = require('./PortfolioController');
+const profileController = require('./profileController');
+const forexController = require('./forexController');
+const stockController = require('./stockController');
+const optionsController = require('./optionsController');
+const trendsController = require('./trendsController');
+const CommodityController = require('./CommodityController');
+const earningController = require('./earningController');
+const newsController = require('./newsController');
+const ratioController = require('./ratioController');
+const vixController = require('./vixController');
+const screenerController = require('./screenerController');
+const crossrateController = require('./crossrateController');
+const volatilityController = require('./volatilityController');
+const fnewsController = require('./fnewsController');
+const openintrestController = require('./openintrestController');
+const com_newsController = require('./com_newsController');
+const transactionController = require('./transactionController');
+const marketdepthController = require('./marketdepthController');
+
+// Define routes
+router.get('/interests', interestController.getAllInterests);
+router.get('/forexs', forexController.getAllForexs);
+router.put('/forexs/addSelectedForex', forexController.addSelectedForex);
+router.put('/forexs/removeSelectedForex', forexController.removeSelectedForex);
+router.get('/forexs/selected', forexController.getSelectedForexs);
+router.put('/stocks/addSelectedStock', stockController.addSelectedStock);
+router.put('/stocks/removeSelectedStock', stockController.removeSelectedStock);
+router.get('/forexs/:symbol', forexController.getDataBySymbol);
+router.get('/profiles', profileController.getAllProfiles);
+router.get('/stocks', stockController.getAllStocks);
+router.get('/stocks', stockController.getSelectedStocks);
+router.get('/stocks/:symbol', stockController.getStockBySymbol); // Define a separate route for getting stock by symbol
+router.get('/options', optionsController.getOptions);
+router.get('/trends', trendsController.getAllTrends);
+router.get('/commodity', CommodityController.getCommodity);
+router.get('/commodity/:Symbol', CommodityController.getDataBySymbol);
+router.get('/commodity/selected', CommodityController.getSelectedComs);
+router.put('/commodity/addSelectedCom', CommodityController.addSelectedCom);
+router.put('/commodity/removeSelectedCom', CommodityController.removeSelectedCom);
+router.get('/vix', vixController.getVix);
+router.get('/crossrates', crossrateController.getCrossrate);
+router.get('/earnings', earningController.getAllEarnings);
+router.get('/news', newsController.getAllNews);
+router.get('/fnews', fnewsController.getAllFnews);
+router.get('/screener', screenerController.getAllScreener);
+router.get('/com_news', com_newsController.getCom_news);
+router.get('/ratios', ratioController.getAllRatios);
+router.get('/openintrest', openintrestController.getOpenintrest);
+router.get('/volatility', volatilityController.getAllVolatility);
+router.get('/calendar', CalendarController.getAllCalendar);
+router.get('/portfolio', PortfolioController.getAllPortfolio);
+router.post('/portfolio', PortfolioController.createPortfolio);
+router.put('/portfolio/:id/updateOrderType', PortfolioController.updateOrderType);
+router.post('/transactions', transactionController.createTransaction);
+router.get('/marketdepth', marketdepthController.getAllMarketDepth);
+
+module.exports = router;

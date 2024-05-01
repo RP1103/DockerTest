@@ -1,0 +1,132 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" color="danger"></ion-back-button>
+    <ion-title>SP&50 Options</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-content class="content">
+    <img src="../../assets/ch3.jpg" />
+        <h1><b>S&P 500 INDEX (^SPX)</b></h1>
+    <p>Chicago Options - Chicago Options Delayed Price. Currency in USD</p>
+    <h1><b>4,008.01-15.88</b> <ion-text color="danger"><b> (-0.39%)</b></ion-text></h1>
+  
+
+  <ion-grid>
+    <center>
+      <p><b>calls</b><br>for may 17.22</p>
+    <ion-button color="success">Call</ion-button>
+    
+  </center>
+  </ion-grid>
+  
+  
+  <ion-grid class="redss" >
+    <ion-row style="border-top:groove">
+      <ion-col col-4>
+        <ion-label>contract
+          <br>name</ion-label>
+      </ion-col>
+      <ion-col >
+        <ion-label >lasttrade<br>date	</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >bid</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >lastprice	</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >strike</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>ask</ion-label>
+      </ion-col>
+      </ion-row>
+  </ion-grid>
+  <ion-grid *ngFor="let sp of sps" class="red">
+    <ion-row style="border-top:groove">
+      <ion-col col-4>
+        <ion-label>{{sp.contractname}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{sp.lastradedate}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{sp.bid}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{sp.lastprice}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label><ion-text color="primary">{{sp.strike}}</ion-text></ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>{{sp.ask}}</ion-label>
+      </ion-col>
+      </ion-row>
+  </ion-grid>
+  <ion-grid>
+     <center>
+      <p><b>put</b><br>for may 17.22</p>
+  
+    
+  </center>
+  </ion-grid><br>
+  
+  
+  <ion-grid class="redss" >
+    <ion-row style="border-top:groove">
+      <ion-col col-4>
+        <ion-label>Contract Name</ion-label>
+      </ion-col>
+      <ion-col >
+        <ion-label >Last Trade Date	</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >bid</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >Last Price	</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >strike</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>Ask</ion-label>
+      </ion-col>
+      </ion-row>
+  </ion-grid>
+  <ion-grid *ngFor="let spp of spps" class="red">
+    <ion-row style="border-top:groove">
+      <ion-col col-4>
+        <ion-label>{{spp.contractname}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{spp.lastradedate}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{spp.bid}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >{{spp.lastprice}}</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label><ion-text color="primary">{{spp.strike}}</ion-text></ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label>{{spp.ask}}</ion-label>
+      </ion-col>
+      </ion-row>
+  </ion-grid>
+  
+     <ion-grid>
+    <center>
+    <ion-button color="success">Put</ion-button>
+    
+  </center>
+  </ion-grid><br>
+</ion-content>

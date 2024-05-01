@@ -1,0 +1,317 @@
+ion-header{
+  height: 13%;
+}
+.tool{
+   // --background: dodgerblue;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+   }
+   .cl1{
+       background-color: aquamarine;
+        font-family:Times New Roman !important;
+          font-size:1.1em;
+
+   }
+   .table{
+    margin-left: 40px;
+
+   }
+   canvas{
+    height: 100px;
+    width: 100px;
+   }
+   #news{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   }
+   summary{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(94, 10, 190);
+    font-weight: bold;
+   }
+   ion-segment{
+    ion-label{
+    color: #B445E6;
+    font-size: medium;
+    font-weight: bold;
+  }
+  }
+    .ch {
+      color: #B445E6;
+    }
+
+   #btn{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+    .color{
+    color: white;
+    padding-left: 35%;
+
+    }
+   .car{
+    height: 200px;
+    width: 45%;
+    background-color: rgba(64, 40, 248, 0.659);
+    color: white;
+   }
+   .positive-value {
+    color: green;
+  }
+
+  .negative-value {
+    color: red;
+  }
+
+   .card{
+       height: 100px;
+       width: 300px;
+       border-radius: 20%;
+       --background:darkblue;
+       color: white;
+      margin-left: 5%;
+   }
+
+.card2{
+  height: 100px;
+  width: 300px;
+  border-radius: 20%;
+  --background:darkblue;
+  color: white;
+  // margin-left: 35%;
+  // margin-top: -7%;
+
+}
+.card3{
+  height: 100px;
+  width: 300px;
+  border-radius: 20%;
+  --background:darkblue;
+  color: white;
+  // margin-left: 64%;
+  // margin-top: -7%;
+}
+
+   .class{
+      --background: aqua;
+   }
+  .new{
+    padding-top: 5%;
+   }
+   #class1{
+    b{
+      margin: 5%;
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }}
+    #class2{
+        margin-left: 20px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+      }
+    ion-label{
+      font-size: larger;
+    }
+    #c1{
+      background-color: rgb(240, 213, 237);
+    }
+    #c2{
+      background-color: rgb(198, 241, 192);
+    }
+    #c3{
+      background-color: rgb(247, 175, 175);
+    }
+    #c4{
+      background-color: rgb(243, 243, 159);
+    }
+    #c5{
+      background-color: rgb(204, 212, 212);
+    }
+    #c6{
+      background-color: rgb(245, 209, 175);
+
+    }
+  h2{
+    margin-left: 20px;
+  }
+  ion-label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .card1{
+    height: 40%;
+    width: 50%;
+    margin-left: 20%;
+    font-size: xx-large;
+    --background:rgb(240, 240, 250);
+
+    p{
+      margin-left: 15%;
+      font-size: medium;
+      color: blanchedalmond
+    }
+   }
+   p{
+    color: #000;
+    font-size: large;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:rgb(224, 172, 75);
+
+  }
+ion-card-content{
+  color:rgb(236, 181, 30);
+  margin-left: 20%;
+}
+ion-card-title{
+  margin-top: 5%;
+  color:rgba(153, 5, 121, 0.959);
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+  #card{
+    --background:rgb(216, 216, 221);
+  }
+}
+.grid-item {
+
+  border: 1px  rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ion-button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: 100;
+
+}
+ion-searchbar{
+  --background:rgb(240, 240, 250);
+   width: 400px;
+}
+.col{
+  font-weight: bold;
+}
+/* Set the color of the range track */
+input[type=range]::-webkit-slider-runnable-track {
+  background-color: red; /* Set the default color to red */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+input[type=range]::-moz-range-track {
+  background-color: red; /* Set the default color to red */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+/* Set the color of the range track between the min and max values */
+input[type=range]::-webkit-slider-runnable-track {
+  background-image: linear-gradient(to right, green, red);
+}
+
+input[type=range]::-moz-range-track {
+  background-image: linear-gradient(to right, green, red);
+}
+
+/* Set the color of the range thumb */
+input[type=range]::-webkit-slider-thumb {
+  background-color: green; /* Set the thumb color to green */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-moz-range-thumb {
+  background-color: green; /* Set the thumb color to green */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+.ms1{
+  color: black;
+}
+
+h4{
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+.col {
+  padding-left: 20px; /* Adjust as needed */
+  padding-right: 20px; /* Adjust as needed */
+} 
+ion-searchbar{
+  padding-left: 25px;
+  padding-right: 50px;
+  border-radius: 3px;
+  border-radius: 15px;
+}
+
+ion-segment-button.recent {
+  --color: #FF5733;
+  /* Change this to the desired color for the list view tab */
+}
+
+ion-segment-button.missed {
+  --color: #337DFF;
+  /* Change this to the desired color for the chart view tab */
+}
+
+.sor{
+  font-size: 20px;
+  width: 20px;
+  
+}
+.ascending::after {
+  content: "\25B2";
+  /* Unicode for ▲ */
+  margin-left: 5px;
+  /* Add some spacing between the label and the arrow */
+}
+
+.descending::after {
+  content: "\25BC";
+  /* Unicode for ▼ */
+  margin-left: 1px;
+  /* Add some spacing between the label and the arrow */
+}
+.chart-container {
+  height: 100%; /* Ensure the container takes up the full height */
+  width: 100%; /* Ensure the container takes up the full width */
+  position: relative; /* Positioning context for absolutely positioned elements */
+}
+
+app-widgetchart {
+  position: absolute; /* Position the chart absolutely within its container */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

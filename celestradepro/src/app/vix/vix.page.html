@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/tabs/tab1" color="danger"></ion-back-button>
+    <ion-title>VIX  Options</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+ 
+  
+<ion-content [fullscreen]="true">
+  <ion-content>
+    <canvas id="myChart"></canvas>
+  </ion-content>
+  
+  <table>
+    <tbody>
+      <tr >
+        <td>
+          <table>
+            <thead>
+              <tr>
+                <th>Open</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Close</th>
+                <th>Volume</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              </tr>
+              <tr *ngFor="let v of vixs">
+                <td>{{ v.Open }}</td>
+                <td>{{ v.High }}</td>
+                <td>{{ v.Low }}</td>
+                <td>{{ v.Close }}</td>
+                <td>{{ v.Volume }}</td>
+              </tr>
+              <tr>
+              </tr>
+            </tbody>
+          </table>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ </ion-content>
+
+
+ 
+
+

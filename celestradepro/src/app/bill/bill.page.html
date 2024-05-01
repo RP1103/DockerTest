@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+    <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    <ion-title>AAPL Chart</ion-title>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div #chart class="chart"></div>
+  <!-- Add this button to your bill.page.html file -->
+<button (click)="toggleMovingAverage()">Toggle Moving Average</button>
+<ion-button (click)="updateRSI()">Update RSI</ion-button>
+</ion-content>
+

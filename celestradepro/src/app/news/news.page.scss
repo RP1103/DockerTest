@@ -1,0 +1,26 @@
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 30px;
+  color: rgb(233, 16, 16);
+}
+a{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5px;
+  font-size: x-large;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+  }
+  .grid-item {
+
+    border: 1px  rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,68 @@
+<ion-header>
+
+  <ion-toolbar >
+    <ion-buttons><ion-back-button defaultHref="/tabs/tab3"></ion-back-button>
+    <ion-title>Forex</ion-title>
+  </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-searchbar type="text" class="form-control" placeholder="Search..." [(ngModel)]="filterTerm" ></ion-searchbar>
+
+  <h2>Stocks</h2>
+
+
+  <ion-grid class="col" id="grid-item">
+    <ion-row style="border-top:groove">
+
+      <ion-col col-4>
+        <ion-label>Open</ion-label>
+      </ion-col>
+      <ion-col col-4>
+      <ion-label >High</ion-label>
+      </ion-col>
+      <ion-col col-4>
+     <ion-label >Low</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >Close</ion-label>
+      </ion-col>
+      <ion-col col-4>
+        <ion-label >Volume</ion-label>
+      </ion-col>
+
+
+    </ion-row>
+  </ion-grid>
+
+<div class="grid-container">
+    <ion-grid *ngFor="let forex of stocks " class="col">
+      <ion-row style="border-top:groove">
+
+        <ion-col col-4 id="c1">
+          <ion-label>{{ forex.Open }}</ion-label>
+        </ion-col>
+        <ion-col col-4 id="c2">
+          <ion-label>{{  forex.High }}</ion-label>
+        </ion-col><ion-col col-4 id="c3">
+          <ion-label>{{  forex.Low }}</ion-label>
+        </ion-col><ion-col col-4 id="c4">
+          <ion-label>{{  forex.Close}}</ion-label>
+        </ion-col><ion-col col-3 id="c5">
+          <ion-label>{{  forex.Volume}}</ion-label>
+        </ion-col>
+
+        <div class="item-note" item-end>
+          <button ion-button clear [routerLink]="['/forex-update/', forex._id]">
+            <ion-icon name="create" style="zoom:1.5"></ion-icon>
+          </button>
+        </div>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+</ion-content>

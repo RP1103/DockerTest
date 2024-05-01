@@ -1,0 +1,72 @@
+ 
+
+  /*img{
+    width:30%;
+    size-adjust: 5px;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  }*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+  }
+  .grid-item {
+
+    border: 1px  rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .ion-searchbar{
+    border-radius: 10%;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #c9cacc;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Style for the table container */
+  .table-container {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    vertical-align: top;
+    overflow-x: auto;
+  }
+
+  @media (max-width: 768px) {
+    /* For small screens, make the tables stack on top of each other */
+    .table-container {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+ion-title{
+  b{
+    margin-left: 25px;
+  }
+}
+
+
+
+

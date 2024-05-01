@@ -1,0 +1,32 @@
+<!--div class="container mt-3">
+  <table class="table">
+    <thead class="table-success">
+      <tr>
+        <th>Symbol</th>
+        <th>Price</th>
+        <th>Chg%</th>
+        <th>Change</th>
+        <th>Bid</th>
+        <th>Ask</th>
+        <th>High</th>
+        <th>Low</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rate of screener">
+        <td>{{rate.symbol}}</td>
+        <td>{{rate.price}}</td>
+        <td>{{rate.change_percent}}%</td>
+        <td>{{rate.change}}</td>
+        <td>{{rate.bid}}</td>
+        <td>{{rate.ask}}</td>
+        <td>{{rate.high}}</td>
+        <td>{{rate.low}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div-->
+
+<div class="iframe">
+  <iframe src="https://fxpricing.com/fx-widget/market-currency-rates-widget.php?id=1,2,3,5,14,20" width="100%" height="290" style="border: 1px solid #eee;"></iframe>
+</div>
