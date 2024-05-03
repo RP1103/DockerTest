@@ -1,4 +1,3 @@
-
 name: Build and Deploy Angular App
 
 on:
@@ -20,28 +19,26 @@ jobs:
         node-version: 14
 
     - name: Install Dependencies
-      run: |
-        npm install
-        npm install highcharts --save
+      run: npm install
+           npm install highcharts
       working-directory: ./celestradepro
 
     - name: Modify TypeScript Files
       run: |
-        find . -type f -name '*.ts' -exec sed -i '/server?: HTTPServer<V> | HTTPSServer<V> | undefined;/s/^/\/\/ @ts-ignore\n/' {} +
-      working-directory: ./celestradepro
-
+        find . -type f -name '*.ts' -exec sed -i '/server?: HTTPServer<V> | HTTPSServer<V> | undefined;/s/^/\/\/ @ts-ignore\n/' {} \;
     - name: Build Angular App
       run: npm run build
       working-directory: ./celestradepro
+
+      env:
+        NG_BUILD_OPTIMIZATION: false
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
 
     - name: Build Docker Image
       run: |
-        # docker build -t rp1103/test:${{ github.run_number }} -f ./celestradepro/Dockerfile .
-        docker build -t rp1103/test:8 -f ./celestradepro/Dockerfile .
-
+        docker build -t rp1103/test:${{ github.run_number }} -f ./celestradepro/Dockerfile .
 
     - name: Log in to Docker Hub
       run: |
@@ -54,43 +51,3 @@ jobs:
     - name: Run Docker Container
       run: |
         docker run -d -p 4200:4200 rp1103/test:${{ github.run_number }}
-# name: Build and Deploy
-
-# on:
-#   push:
-#     branches:
-#       - main  # Change this to your main branch name
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     env:
-#       DOCKER_USERNAME: rp1103
-#       DOCKER_PASSWORD: Veeramathi@1
-
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v2
-
-#       - name: Set up Node.js
-#         uses: actions/setup-node@v2
-#         with:
-#           node-version: '14'
-
-#       - name: Install dependencies
-#         working-directory: C:/Users/preet/DockerTest/celestradepro
-#         run: npm install
-
-#       - name: Build Angular app
-#         working-directory: C:/Users/preet/DockerTest/celestradepro
-#         run: npm run build -- --prod
- 
-#       - name: Build Docker image
-#         run: docker build -t $DOCKER_USERNAME/celestradepro .
-
-#       - name: Log in to Docker Hub
-#         run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-
-#       - name: Push Docker image to Docker Hub
-#         run: docker push $DOCKER_USERNAME/celestradepro
