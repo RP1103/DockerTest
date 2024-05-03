@@ -80,12 +80,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd C:\Users\preet\DockerTest\celestradepro
+          cd "C:\\Users\\preet\\DockerTest\\celestradepro"
           npm install
 
       - name: Build Angular app
         run: |
-          cd C:\Users\preet\DockerTest\celestradepro
+          cd "C:\\Users\\preet\\DockerTest\\celestradepro"
           npm run build -- --prod
 
       - name: Build Docker image
