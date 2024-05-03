@@ -79,15 +79,12 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: |
-          cd "C:\\Users\\preet\\DockerTest\\celestradepro"
-          npm install
+        working-directory: C:\Users\preet\DockerTest\celestradepro
+        run: npm install
 
       - name: Build Angular app
-        run: |
-          cd "C:\\Users\\preet\\DockerTest\\celestradepro"
-          npm run build -- --prod
-
+        working-directory: C:\Users\preet\DockerTest\celestradepro
+        run: npm run build -- --prod 
       - name: Build Docker image
         run: docker build -t $DOCKER_USERNAME/celestradepro .
 
