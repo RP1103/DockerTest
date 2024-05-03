@@ -78,7 +78,7 @@ jobs:
         with:
           node-version: '14'
 
-       -name: Install dependencies
+      -name: Install dependencies
         working-directory: C:/Users/preet/DockerTest/celestradepro
         run: npm install
 
