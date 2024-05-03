@@ -34,7 +34,7 @@
 # # Start the HTTP server to serve your Angular app
 # CMD ["http-server", "-p", "8080"]
 # # Use an official Node.js runtime as the base image for the build stage
- Use the official Node.js 16 image as the base image for the build stage
+# Use the official Node.js 16 image as the base image for the build stage
 FROM node:16 as build
 
 # Set the working directory in the container
