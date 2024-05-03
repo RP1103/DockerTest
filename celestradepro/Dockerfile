@@ -32,4 +32,4 @@ WORKDIR /app
 EXPOSE 8080
 
 # Start the HTTP server to serve your Angular app
-CMD ["http-server", "-p", "8080"]
+CMD ["http-server", "-p", "4200"]
