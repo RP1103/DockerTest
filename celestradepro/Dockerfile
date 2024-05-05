@@ -29,7 +29,7 @@ WORKDIR /app
 # COPY --from=build /app/dist/celestradepro .
 
 # Expose the port your app will listen on (e.g., 8080)
-EXPOSE 8080
+EXPOSE 4200
 
 # Start the HTTP server to serve your Angular app
 CMD ["http-server", "-p", "4200"]
