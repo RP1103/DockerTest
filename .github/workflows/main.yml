@@ -1,3 +1,4 @@
+
 name: Build and Deploy Angular App
 
 on:
@@ -38,16 +39,13 @@ jobs:
 
     - name: Build Docker Image
       run: |
-           docker build -t cmtq/cloud:${{ github.run_number }} .
-
+        docker build -t rp1103/test:${{ github.run_number }} -f ./celestradepro/Dockerfile .
     - name: Log in to Docker Hub
       run: |
-       docker login -u cmtq/cloud -p 90950047@
-
+        docker login -u rp1103 -p Veeramathi@1
     - name: Push Docker Image
       run: |
-        docker push cmtq/cloud:${{ github.run_number }}
-
+        docker push rp1103/test:${{ github.run_number }}
     - name: Run Docker Container
       run: |
         docker run -d -p 4200:4200 rp1103/test:${{ github.run_number }}
