@@ -42,7 +42,7 @@ jobs:
 
     - name: Log in to Docker Hub
       run: |
-        docker login -u rp1103 -p Veeramathi@1
+        docker login -u cmtq/cloud -p 90950047@
 
     - name: Push Docker Image
       run: |
