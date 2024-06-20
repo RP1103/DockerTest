@@ -40,22 +40,3 @@ CMD ["ng", "serve", "--host", "4200"]
 
 
 
-# FROM node:alpine
-
-# # Set the working directory
-# WORKDIR /app
-
-# # Copy the current directory contents into the container at /usr/src/app
-# WORKDIR /app
-
-# # Install Angular CLI globally
-# RUN npm install -g @angular/cli
-
-# # Install project dependencies
-# RUN npm install
-
-# # Expose the port Angular uses to serve the app
-# EXPOSE 4200
-
-# # Command to run the Angular app
-# CMD ["ng", "serve", "--host", "0.0.0.0"]
