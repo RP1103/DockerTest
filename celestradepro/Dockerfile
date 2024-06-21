@@ -68,7 +68,7 @@ COPY --from=build /app/dist .
 EXPOSE 4200:4200
 
 # Start the HTTP server to serve your Angular app
-CMD ["http-server", "-p", "8080"]
+CMD ["http-server", "-p", "4200"]
 
 
 
