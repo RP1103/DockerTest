@@ -5,7 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const router = require('./router');
 
-mongoose.connect('mongodb://127.0.0.1/FinanceDB', {
+mongoose.connect('mongodb://localhost/FinanceDB', {
 //mongoose.connect('mongodb://localhost/my_database', {
   useNewUrlParser: true,
   useUnifiedTopology: true
