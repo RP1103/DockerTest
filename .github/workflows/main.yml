@@ -33,8 +33,7 @@ jobs:
       
     - name: Install Backend Dependencies
     run: |
-              node server.js
-            
+             run: node server.js
     working-directory: ./celestradepro/Backend
 
       env:
