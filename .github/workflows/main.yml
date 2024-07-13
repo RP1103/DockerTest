@@ -30,11 +30,14 @@ jobs:
     - name: Build Angular App
       run: npm run build
       working-directory: ./celestradepro
-      
+
     - name: Install Backend Dependencies
-    run: |
-             run: node server.js
-    working-directory: ./celestradepro/Backend
+      run: |
+          node server.js
+        
+      working-directory: ./celestradepro/Backend  
+      
+ 
 
       env:
         NG_BUILD_OPTIMIZATION: false
